@@ -1,0 +1,6299 @@
+[
+  {
+    "char": "对",
+    "rank": 1,
+    "hanvi": "ĐỐI",
+    "meaning": [
+      "cặp",
+      "đúng",
+      "quay về phía"
+    ],
+    "vocabulary": [
+      {
+        "word": "对於",
+        "hanvi": "ĐỐI Ư",
+        "meaning": ""
+      },
+      {
+        "word": "不对",
+        "hanvi": "BẤT ĐỐI",
+        "meaning": ""
+      },
+      {
+        "word": "对待",
+        "hanvi": "ĐỐI ĐÃI",
+        "meaning": ""
+      },
+      {
+        "word": "对手",
+        "hanvi": "ĐỐI THỦ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "以",
+    "rank": 2,
+    "hanvi": "DĨ",
+    "meaning": [
+      "dùng, sử dụng",
+      "bởi vì",
+      "lý do"
+    ],
+    "vocabulary": [
+      {
+        "word": "以故",
+        "hanvi": "DĨ CỐ",
+        "meaning": ""
+      },
+      {
+        "word": "以下",
+        "hanvi": "DĨ HẠ",
+        "meaning": ""
+      },
+      {
+        "word": "以为",
+        "hanvi": "DĨ VI",
+        "meaning": ""
+      },
+      {
+        "word": "以為",
+        "hanvi": "DĨ VI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "个",
+    "rank": 3,
+    "hanvi": "CÁ",
+    "meaning": [
+      "cái, quả, con"
+    ],
+    "vocabulary": [
+      {
+        "word": "个子",
+        "hanvi": "CÁ TỬ",
+        "meaning": ""
+      },
+      {
+        "word": "几个",
+        "hanvi": "KỶ CÁ",
+        "meaning": ""
+      },
+      {
+        "word": "各个",
+        "hanvi": "CÁC CÁ",
+        "meaning": ""
+      },
+      {
+        "word": "个别",
+        "hanvi": "CÁ BIỆT",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "一",
+    "rank": 4,
+    "hanvi": "NHẤT",
+    "meaning": [
+      "một, 1",
+      "bộ nhất"
+    ],
+    "vocabulary": [
+      {
+        "word": "第一",
+        "hanvi": "ĐỆ NHẤT",
+        "meaning": ""
+      },
+      {
+        "word": "一个",
+        "hanvi": "NHẤT CÁ",
+        "meaning": ""
+      },
+      {
+        "word": "一個",
+        "hanvi": "NHẤT CÁ",
+        "meaning": ""
+      },
+      {
+        "word": "一度",
+        "hanvi": "NHẤT ĐỘ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "他",
+    "rank": 5,
+    "hanvi": "THA",
+    "meaning": [
+      "nó",
+      "khác"
+    ],
+    "vocabulary": [
+      {
+        "word": "愛他",
+        "hanvi": "ÁI THA",
+        "meaning": ""
+      },
+      {
+        "word": "爲他",
+        "hanvi": "VỊ THA",
+        "meaning": ""
+      },
+      {
+        "word": "無他",
+        "hanvi": "VÔ THA",
+        "meaning": ""
+      },
+      {
+        "word": "吉他",
+        "hanvi": "CÁT THA",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "收",
+    "rank": 6,
+    "hanvi": "THU",
+    "meaning": [
+      "thu dọn",
+      "thu về, lấy về"
+    ],
+    "vocabulary": [
+      {
+        "word": "收据",
+        "hanvi": "THU CỨ",
+        "meaning": ""
+      },
+      {
+        "word": "收據",
+        "hanvi": "THU CỨ",
+        "meaning": ""
+      },
+      {
+        "word": "吸收",
+        "hanvi": "HẤP THU",
+        "meaning": ""
+      },
+      {
+        "word": "盡收",
+        "hanvi": "TẬN THU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "基",
+    "rank": 7,
+    "hanvi": "CƠ",
+    "meaning": [
+      "(xem: tư cơ 鎡錤,镃基)"
+    ],
+    "vocabulary": [
+      {
+        "word": "基於",
+        "hanvi": "CƠ Ư",
+        "meaning": ""
+      },
+      {
+        "word": "氨基",
+        "hanvi": "AN CƠ",
+        "meaning": ""
+      },
+      {
+        "word": "基圖",
+        "hanvi": "CƠ ĐỒ",
+        "meaning": ""
+      },
+      {
+        "word": "基數",
+        "hanvi": "CƠ SỐ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "之",
+    "rank": 8,
+    "hanvi": "CHI",
+    "meaning": [
+      "đã, rồi",
+      "thuộc về",
+      "(đại từ thay thế)"
+    ],
+    "vocabulary": [
+      {
+        "word": "之下",
+        "hanvi": "CHI HẠ",
+        "meaning": ""
+      },
+      {
+        "word": "謂之",
+        "hanvi": "VỊ CHI",
+        "meaning": ""
+      },
+      {
+        "word": "之后",
+        "hanvi": "CHI HẬU",
+        "meaning": ""
+      },
+      {
+        "word": "之後",
+        "hanvi": "CHI HẬU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "线",
+    "rank": 9,
+    "hanvi": "TUYẾN",
+    "meaning": [
+      "đường, tia"
+    ],
+    "vocabulary": [
+      {
+        "word": "底线",
+        "hanvi": "ĐỂ TUYẾN",
+        "meaning": ""
+      },
+      {
+        "word": "射线",
+        "hanvi": "XẠ TUYẾN",
+        "meaning": ""
+      },
+      {
+        "word": "电线",
+        "hanvi": "ĐIỆN TUYẾN",
+        "meaning": ""
+      },
+      {
+        "word": "佔线",
+        "hanvi": "CHIẾM TUYẾN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "和",
+    "rank": 10,
+    "hanvi": "HOÀ",
+    "meaning": [
+      "cùng, và",
+      "trộn lẫn"
+    ],
+    "vocabulary": [
+      {
+        "word": "和蔼",
+        "hanvi": "HOÀ ÁI",
+        "meaning": ""
+      },
+      {
+        "word": "和藹",
+        "hanvi": "HOÀ ÁI",
+        "meaning": ""
+      },
+      {
+        "word": "温和",
+        "hanvi": "ÔN HOÀ",
+        "meaning": ""
+      },
+      {
+        "word": "溫和",
+        "hanvi": "ÔN HOÀ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "从",
+    "rank": 11,
+    "hanvi": "TÒNG",
+    "meaning": [
+      "đi theo"
+    ],
+    "vocabulary": [
+      {
+        "word": "从事",
+        "hanvi": "TÒNG SỰ",
+        "meaning": ""
+      },
+      {
+        "word": "从来",
+        "hanvi": "TÒNG LAI",
+        "meaning": ""
+      },
+      {
+        "word": "从而",
+        "hanvi": "TÒNG NHI",
+        "meaning": ""
+      },
+      {
+        "word": "从此",
+        "hanvi": "TÒNG THỬ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "你",
+    "rank": 12,
+    "hanvi": "NHĨ",
+    "meaning": [
+      "anh, bạn, mày",
+      "vậy (dùng để kết thúc câu)"
+    ],
+    "vocabulary": [
+      {
+        "word": "你好",
+        "hanvi": "NHĨ HẢO",
+        "meaning": ""
+      },
+      {
+        "word": "你们",
+        "hanvi": "NHĨ MÔN",
+        "meaning": ""
+      },
+      {
+        "word": "你們",
+        "hanvi": "NHĨ MÔN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "素",
+    "rank": 13,
+    "hanvi": "TỐ",
+    "meaning": [
+      "tơ trắng",
+      "trắng nõn",
+      "chất"
+    ],
+    "vocabulary": [
+      {
+        "word": "哀素",
+        "hanvi": "AI TỐ",
+        "meaning": ""
+      },
+      {
+        "word": "安素",
+        "hanvi": "AN TỐ",
+        "meaning": ""
+      },
+      {
+        "word": "音素",
+        "hanvi": "ÂM TỐ",
+        "meaning": ""
+      },
+      {
+        "word": "布素",
+        "hanvi": "BỐ TỐ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "着",
+    "rank": 14,
+    "hanvi": "TRƯỚC",
+    "meaning": [
+      "mặc áo",
+      "biên soạn sách",
+      "nước cờ"
+    ],
+    "vocabulary": [
+      {
+        "word": "执着",
+        "hanvi": "CHẤP TRƯỚC",
+        "meaning": ""
+      },
+      {
+        "word": "穿着",
+        "hanvi": "XUYÊN TRƯỚC",
+        "meaning": ""
+      },
+      {
+        "word": "着想",
+        "hanvi": "TRƯỚC TƯỞNG",
+        "meaning": ""
+      },
+      {
+        "word": "沉着",
+        "hanvi": "TRẦM TRƯỚC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "医",
+    "rank": 15,
+    "hanvi": "Y",
+    "meaning": [
+      "chữa bệnh",
+      "thầy thuốc"
+    ],
+    "vocabulary": [
+      {
+        "word": "医院",
+        "hanvi": "Y VIỆN",
+        "meaning": ""
+      },
+      {
+        "word": "医生",
+        "hanvi": "Y SINH",
+        "meaning": ""
+      },
+      {
+        "word": "医疗",
+        "hanvi": "Y LIỆU",
+        "meaning": ""
+      },
+      {
+        "word": "中医",
+        "hanvi": "TRUNG Y",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "施",
+    "rank": 16,
+    "hanvi": "THI",
+    "meaning": [
+      "thực hiện, tiến hành"
+    ],
+    "vocabulary": [
+      {
+        "word": "旖施",
+        "hanvi": "Y THI",
+        "meaning": ""
+      },
+      {
+        "word": "恩施",
+        "hanvi": "ÂN THI",
+        "meaning": ""
+      },
+      {
+        "word": "施恩",
+        "hanvi": "THI ÂN",
+        "meaning": ""
+      },
+      {
+        "word": "施禮",
+        "hanvi": "THI LỄ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "认",
+    "rank": 17,
+    "hanvi": "NHẬN",
+    "meaning": [
+      "nhận ra, nhận biết",
+      "chấp thuận, nhận, bằng lòng"
+    ],
+    "vocabulary": [
+      {
+        "word": "否认",
+        "hanvi": "PHỦ NHẬN",
+        "meaning": ""
+      },
+      {
+        "word": "公认",
+        "hanvi": "CÔNG NHẬN",
+        "meaning": ""
+      },
+      {
+        "word": "认识",
+        "hanvi": "NHẬN THỨC",
+        "meaning": ""
+      },
+      {
+        "word": "承认",
+        "hanvi": "THỪA NHẬN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "识",
+    "rank": 18,
+    "hanvi": "THỨC",
+    "meaning": [
+      "biết",
+      "kiến thức"
+    ],
+    "vocabulary": [
+      {
+        "word": "意识",
+        "hanvi": "Ý THỨC",
+        "meaning": ""
+      },
+      {
+        "word": "知识",
+        "hanvi": "TRI THỨC",
+        "meaning": ""
+      },
+      {
+        "word": "见识",
+        "hanvi": "KIẾN THỨC",
+        "meaning": ""
+      },
+      {
+        "word": "认识",
+        "hanvi": "NHẬN THỨC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "合",
+    "rank": 19,
+    "hanvi": "HỢP",
+    "meaning": [
+      "hợp, vừa ý",
+      "nhắm mắt",
+      "hợp lại, gộp lại"
+    ],
+    "vocabulary": [
+      {
+        "word": "合意",
+        "hanvi": "HỢP Ý",
+        "meaning": ""
+      },
+      {
+        "word": "烏合",
+        "hanvi": "Ô HỢP",
+        "meaning": ""
+      },
+      {
+        "word": "意合",
+        "hanvi": "Ý HỢP",
+        "meaning": ""
+      },
+      {
+        "word": "暗合",
+        "hanvi": "ÁM HỢP",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "人",
+    "rank": 20,
+    "hanvi": "NHÂN",
+    "meaning": [
+      "người"
+    ],
+    "vocabulary": [
+      {
+        "word": "幽人",
+        "hanvi": "U NHÂN",
+        "meaning": ""
+      },
+      {
+        "word": "伊人",
+        "hanvi": "Y NHÂN",
+        "meaning": ""
+      },
+      {
+        "word": "惡人",
+        "hanvi": "ÁC NHÂN",
+        "meaning": ""
+      },
+      {
+        "word": "愛人",
+        "hanvi": "ÁI NHÂN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "么",
+    "rank": 21,
+    "hanvi": "MA",
+    "meaning": [
+      "bé nhỏ",
+      "vậy (trợ ngữ)"
+    ],
+    "vocabulary": [
+      {
+        "word": "那么",
+        "hanvi": "NA MA",
+        "meaning": ""
+      },
+      {
+        "word": "么麼",
+        "hanvi": "YÊU MA",
+        "meaning": ""
+      },
+      {
+        "word": "怎么",
+        "hanvi": "CHẨM MA",
+        "meaning": ""
+      },
+      {
+        "word": "什么",
+        "hanvi": "THẬP MA",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "过",
+    "rank": 22,
+    "hanvi": "QUÁ",
+    "meaning": [
+      "qua, vượt",
+      "hơn, quá",
+      "đã từng"
+    ],
+    "vocabulary": [
+      {
+        "word": "改过",
+        "hanvi": "CẢI QUÁ",
+        "meaning": ""
+      },
+      {
+        "word": "掠过",
+        "hanvi": "LƯỢC QUÁ",
+        "meaning": ""
+      },
+      {
+        "word": "横过",
+        "hanvi": "HOÀNH QUÁ",
+        "meaning": ""
+      },
+      {
+        "word": "胜过",
+        "hanvi": "THẮNG QUÁ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "看",
+    "rank": 23,
+    "hanvi": "KHÁN",
+    "meaning": [
+      "xem, nhìn",
+      "đọc"
+    ],
+    "vocabulary": [
+      {
+        "word": "看護",
+        "hanvi": "KHÁN HỘ",
+        "meaning": ""
+      },
+      {
+        "word": "斜看",
+        "hanvi": "TÀ KHÁN",
+        "meaning": ""
+      },
+      {
+        "word": "遙看",
+        "hanvi": "DAO KHÁN",
+        "meaning": ""
+      },
+      {
+        "word": "好看",
+        "hanvi": "HẢO KHÁN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "作",
+    "rank": 24,
+    "hanvi": "TÁC",
+    "meaning": [
+      "làm, tạo nên"
+    ],
+    "vocabulary": [
+      {
+        "word": "惡作",
+        "hanvi": "ÁC TÁC",
+        "meaning": ""
+      },
+      {
+        "word": "巨作",
+        "hanvi": "CỰ TÁC",
+        "meaning": ""
+      },
+      {
+        "word": "夜作",
+        "hanvi": "DẠ TÁC",
+        "meaning": ""
+      },
+      {
+        "word": "作惡",
+        "hanvi": "TÁC ÁC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "就",
+    "rank": 25,
+    "hanvi": "TỰU",
+    "meaning": [
+      "nên, hay là",
+      "tới, theo"
+    ],
+    "vocabulary": [
+      {
+        "word": "齊就",
+        "hanvi": "TỀ TỰU",
+        "meaning": ""
+      },
+      {
+        "word": "就位",
+        "hanvi": "TỰU VỊ",
+        "meaning": ""
+      },
+      {
+        "word": "就是",
+        "hanvi": "TỰU THỊ",
+        "meaning": ""
+      },
+      {
+        "word": "就此",
+        "hanvi": "TỰU THỬ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "为",
+    "rank": 26,
+    "hanvi": "VỊ",
+    "meaning": [
+      "bởi vì",
+      "giúp cho"
+    ],
+    "vocabulary": [
+      {
+        "word": "为己",
+        "hanvi": "VỊ KỶ",
+        "meaning": ""
+      },
+      {
+        "word": "因为",
+        "hanvi": "NHÂN VỊ",
+        "meaning": ""
+      },
+      {
+        "word": "舍己为人",
+        "hanvi": "XẢ KỶ VỊ NHÂN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "国",
+    "rank": 27,
+    "hanvi": "QUỐC",
+    "meaning": [
+      "đất nước, quốc gia"
+    ],
+    "vocabulary": [
+      {
+        "word": "爱国",
+        "hanvi": "ÁI QUỐC",
+        "meaning": ""
+      },
+      {
+        "word": "帝国",
+        "hanvi": "ĐẾ QUỐC",
+        "meaning": ""
+      },
+      {
+        "word": "美国",
+        "hanvi": "MỸ QUỐC",
+        "meaning": ""
+      },
+      {
+        "word": "国旗",
+        "hanvi": "QUỐC KỲ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "下",
+    "rank": 28,
+    "hanvi": "HẠ",
+    "meaning": [
+      "đi xuống",
+      "ở bên dưới"
+    ],
+    "vocabulary": [
+      {
+        "word": "陛下",
+        "hanvi": "BỆ HẠ",
+        "meaning": ""
+      },
+      {
+        "word": "部下",
+        "hanvi": "BỘ HẠ",
+        "meaning": ""
+      },
+      {
+        "word": "以下",
+        "hanvi": "DĨ HẠ",
+        "meaning": ""
+      },
+      {
+        "word": "低下",
+        "hanvi": "ĐÊ HẠ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "到",
+    "rank": 29,
+    "hanvi": "ĐÁO",
+    "meaning": [
+      "đến nơi"
+    ],
+    "vocabulary": [
+      {
+        "word": "押到",
+        "hanvi": "ÁP ĐÁO",
+        "meaning": ""
+      },
+      {
+        "word": "到底",
+        "hanvi": "ĐÁO ĐỂ",
+        "meaning": ""
+      },
+      {
+        "word": "到处",
+        "hanvi": "ĐÁO XỨ",
+        "meaning": ""
+      },
+      {
+        "word": "到處",
+        "hanvi": "ĐÁO XỨ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "得",
+    "rank": 30,
+    "hanvi": "ĐẮC",
+    "meaning": [
+      "được",
+      "trúng, đúng"
+    ],
+    "vocabulary": [
+      {
+        "word": "得意",
+        "hanvi": "ĐẮC Ý",
+        "meaning": ""
+      },
+      {
+        "word": "安得",
+        "hanvi": "AN ĐẮC",
+        "meaning": ""
+      },
+      {
+        "word": "所得",
+        "hanvi": "SỞ ĐẮC",
+        "meaning": ""
+      },
+      {
+        "word": "捨得",
+        "hanvi": "XẢ ĐẮC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "子",
+    "rank": 31,
+    "hanvi": "TỬ",
+    "meaning": [
+      "con",
+      "cái"
+    ],
+    "vocabulary": [
+      {
+        "word": "亞子",
+        "hanvi": "Á TỬ",
+        "meaning": ""
+      },
+      {
+        "word": "椅子",
+        "hanvi": "Ỷ TỬ",
+        "meaning": ""
+      },
+      {
+        "word": "惡子",
+        "hanvi": "ÁC TỬ",
+        "meaning": ""
+      },
+      {
+        "word": "哀子",
+        "hanvi": "AI TỬ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "后",
+    "rank": 32,
+    "hanvi": "HẬU",
+    "meaning": [
+      "hoàng hậu, vợ vua"
+    ],
+    "vocabulary": [
+      {
+        "word": "以后",
+        "hanvi": "DĨ HẬU",
+        "meaning": ""
+      },
+      {
+        "word": "后帝",
+        "hanvi": "HẬU ĐẾ",
+        "meaning": ""
+      },
+      {
+        "word": "后期",
+        "hanvi": "HẬU KỲ",
+        "meaning": ""
+      },
+      {
+        "word": "背后",
+        "hanvi": "BỐI HẬU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "意",
+    "rank": 33,
+    "hanvi": "Ý",
+    "meaning": [
+      "ý, ý nghĩ",
+      "dự tính, ý định",
+      "lòng dạ"
+    ],
+    "vocabulary": [
+      {
+        "word": "恶意",
+        "hanvi": "ÁC Ý",
+        "meaning": ""
+      },
+      {
+        "word": "惡意",
+        "hanvi": "ÁC Ý",
+        "meaning": ""
+      },
+      {
+        "word": "故意",
+        "hanvi": "CỐ Ý",
+        "meaning": ""
+      },
+      {
+        "word": "初意",
+        "hanvi": "SƠ Ý",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "手",
+    "rank": 34,
+    "hanvi": "THỦ",
+    "meaning": [
+      "cái tay"
+    ],
+    "vocabulary": [
+      {
+        "word": "握手",
+        "hanvi": "ÁC THỦ",
+        "meaning": ""
+      },
+      {
+        "word": "把手",
+        "hanvi": "BẢ THỦ",
+        "meaning": ""
+      },
+      {
+        "word": "歌手",
+        "hanvi": "CA THỦ",
+        "meaning": ""
+      },
+      {
+        "word": "舉手",
+        "hanvi": "CỬ THỦ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "里",
+    "rank": 35,
+    "hanvi": "LÍ",
+    "meaning": [
+      "(Danh) Chỗ ở, nhà ở.◇Thi Kinh 詩經:將仲子兮, 無踰我里Tương Trọng tử hề, vô du ngã lí(Trịnh phong 鄭風, Tương Trọng tử minh 將仲子) Xin chàng Trọng tử, Đừng trèo qua nhà em",
+      "(Danh) Làng.§ Ngày xưa, chỗ dân ở 25 nhà gọi là “lí”",
+      "(Danh) Xóm phường, hàng phố.◎Như:里巷lí hạngngõ xóm鄰里lân líhàng xóm"
+    ],
+    "vocabulary": [
+      {
+        "word": "綺里",
+        "hanvi": "Ỷ LÍ",
+        "meaning": ""
+      },
+      {
+        "word": "故里",
+        "hanvi": "CỐ LÍ",
+        "meaning": ""
+      },
+      {
+        "word": "閭里",
+        "hanvi": "LƯ LÍ",
+        "meaning": ""
+      },
+      {
+        "word": "梓里",
+        "hanvi": "TỬ LÍ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "地",
+    "rank": 36,
+    "hanvi": "ĐỊA",
+    "meaning": [
+      "đất",
+      "địa vị"
+    ],
+    "vocabulary": [
+      {
+        "word": "暗地",
+        "hanvi": "ÁM ĐỊA",
+        "meaning": ""
+      },
+      {
+        "word": "陰地",
+        "hanvi": "ÂM ĐỊA",
+        "meaning": ""
+      },
+      {
+        "word": "隱地",
+        "hanvi": "ẨN ĐỊA",
+        "meaning": ""
+      },
+      {
+        "word": "異地",
+        "hanvi": "DỊ ĐỊA",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "培",
+    "rank": 37,
+    "hanvi": "BỒI",
+    "meaning": [
+      "vun xới, bón"
+    ],
+    "vocabulary": [
+      {
+        "word": "安培",
+        "hanvi": "AN BỒI",
+        "meaning": ""
+      },
+      {
+        "word": "培補",
+        "hanvi": "BỒI BỔ",
+        "meaning": ""
+      },
+      {
+        "word": "培修",
+        "hanvi": "BỒI TU",
+        "meaning": ""
+      },
+      {
+        "word": "培育",
+        "hanvi": "BỒI DỤC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "没",
+    "rank": 38,
+    "hanvi": "MỘT",
+    "meaning": [
+      "chìm mất",
+      "lặn (mặt trời)",
+      "không"
+    ],
+    "vocabulary": [
+      {
+        "word": "辱没",
+        "hanvi": "NHỤC MỘT",
+        "meaning": ""
+      },
+      {
+        "word": "籍没",
+        "hanvi": "TỊCH MỘT",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "还",
+    "rank": 39,
+    "hanvi": "HOÀN",
+    "meaning": [
+      "trở về",
+      "trả lại",
+      "vẫn còn, vẫn chưa"
+    ],
+    "vocabulary": [
+      {
+        "word": "归还",
+        "hanvi": "QUY HOÀN",
+        "meaning": ""
+      },
+      {
+        "word": "偿还",
+        "hanvi": "THƯỜNG HOÀN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "时",
+    "rank": 40,
+    "hanvi": "THÌ",
+    "meaning": [
+      "lúc",
+      "thời gian"
+    ],
+    "vocabulary": [
+      {
+        "word": "按时",
+        "hanvi": "ÁN THÌ",
+        "meaning": ""
+      },
+      {
+        "word": "某时",
+        "hanvi": "MỖ THÌ",
+        "meaning": ""
+      },
+      {
+        "word": "时机",
+        "hanvi": "THÌ CƠ",
+        "meaning": ""
+      },
+      {
+        "word": "时期",
+        "hanvi": "THÌ KỲ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "习",
+    "rank": 41,
+    "hanvi": "TẬP",
+    "meaning": [
+      "học đi học lại, luyện tập",
+      "quen"
+    ],
+    "vocabulary": [
+      {
+        "word": "学习",
+        "hanvi": "HỌC TẬP",
+        "meaning": ""
+      },
+      {
+        "word": "复习",
+        "hanvi": "PHÚC TẬP",
+        "meaning": ""
+      },
+      {
+        "word": "实习",
+        "hanvi": "THỰC TẬP",
+        "meaning": ""
+      },
+      {
+        "word": "练习",
+        "hanvi": "LUYỆN TẬP",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "企",
+    "rank": 42,
+    "hanvi": "XÍ",
+    "meaning": [
+      "kiễng chân",
+      "mong ngóng"
+    ],
+    "vocabulary": [
+      {
+        "word": "企圖",
+        "hanvi": "XÍ ĐỒ",
+        "meaning": ""
+      },
+      {
+        "word": "延企",
+        "hanvi": "DIÊN XÍ",
+        "meaning": ""
+      },
+      {
+        "word": "翹企",
+        "hanvi": "KIỀU XÍ",
+        "meaning": ""
+      },
+      {
+        "word": "企望",
+        "hanvi": "XÍ VỌNG",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "去",
+    "rank": 43,
+    "hanvi": "KHỨ",
+    "meaning": [
+      "đi",
+      "bỏ",
+      "đã qua"
+    ],
+    "vocabulary": [
+      {
+        "word": "下去",
+        "hanvi": "HẠ KHỨ",
+        "meaning": ""
+      },
+      {
+        "word": "大去",
+        "hanvi": "ĐẠI KHỨ",
+        "meaning": ""
+      },
+      {
+        "word": "回去",
+        "hanvi": "HỒI KHỨ",
+        "meaning": ""
+      },
+      {
+        "word": "去囘",
+        "hanvi": "KHỨ HỒI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "出",
+    "rank": 44,
+    "hanvi": "XUẤT",
+    "meaning": [
+      "một tấn (một đoạn) trong vở tuồng"
+    ],
+    "vocabulary": [
+      {
+        "word": "提出",
+        "hanvi": "ĐỀ XUẤT",
+        "meaning": ""
+      },
+      {
+        "word": "露出",
+        "hanvi": "LỘ XUẤT",
+        "meaning": ""
+      },
+      {
+        "word": "借出",
+        "hanvi": "TÁ XUẤT",
+        "meaning": ""
+      },
+      {
+        "word": "做出",
+        "hanvi": "TỐ XUẤT",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "发",
+    "rank": 45,
+    "hanvi": "PHÁT",
+    "meaning": [
+      "tóc",
+      "một phần nghìn của một tấc"
+    ],
+    "vocabulary": [
+      {
+        "word": "自发",
+        "hanvi": "TỰ PHÁT",
+        "meaning": ""
+      },
+      {
+        "word": "暴发",
+        "hanvi": "BẠO PHÁT",
+        "meaning": ""
+      },
+      {
+        "word": "爆发",
+        "hanvi": "BỘC PHÁT",
+        "meaning": ""
+      },
+      {
+        "word": "勃发",
+        "hanvi": "BỘT PHÁT",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "策",
+    "rank": 46,
+    "hanvi": "SÁCH",
+    "meaning": [
+      "thẻ tre để viết",
+      "sách lược, mưu kế",
+      "roi ngựa"
+    ],
+    "vocabulary": [
+      {
+        "word": "遺策",
+        "hanvi": "DI SÁCH",
+        "meaning": ""
+      },
+      {
+        "word": "策勵",
+        "hanvi": "SÁCH LỆ",
+        "meaning": ""
+      },
+      {
+        "word": "策士",
+        "hanvi": "SÁCH SĨ",
+        "meaning": ""
+      },
+      {
+        "word": "对策",
+        "hanvi": "ĐỐI SÁCH",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "力",
+    "rank": 47,
+    "hanvi": "LỰC",
+    "meaning": [
+      "sức lực"
+    ],
+    "vocabulary": [
+      {
+        "word": "握力",
+        "hanvi": "ÁC LỰC",
+        "meaning": ""
+      },
+      {
+        "word": "愛力",
+        "hanvi": "ÁI LỰC",
+        "meaning": ""
+      },
+      {
+        "word": "暗力",
+        "hanvi": "ÁM LỰC",
+        "meaning": ""
+      },
+      {
+        "word": "压力",
+        "hanvi": "ÁP LỰC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "眼",
+    "rank": 48,
+    "hanvi": "NHÃN",
+    "meaning": [
+      "cái mắt"
+    ],
+    "vocabulary": [
+      {
+        "word": "雞眼",
+        "hanvi": "KÊ NHÃN",
+        "meaning": ""
+      },
+      {
+        "word": "露眼",
+        "hanvi": "LỘ NHÃN",
+        "meaning": ""
+      },
+      {
+        "word": "眼波",
+        "hanvi": "NHÃN BA",
+        "meaning": ""
+      },
+      {
+        "word": "砂眼",
+        "hanvi": "SA NHÃN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "那",
+    "rank": 49,
+    "hanvi": "NA",
+    "meaning": [
+      "nhiều",
+      "an nhàn",
+      "nào, gì (câu hỏi)"
+    ],
+    "vocabulary": [
+      {
+        "word": "阿那",
+        "hanvi": "A NA",
+        "meaning": ""
+      },
+      {
+        "word": "那裏",
+        "hanvi": "NA LÝ",
+        "meaning": ""
+      },
+      {
+        "word": "那裡",
+        "hanvi": "NA LÝ",
+        "meaning": ""
+      },
+      {
+        "word": "那里",
+        "hanvi": "NA LÝ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "有",
+    "rank": 50,
+    "hanvi": "HỮU",
+    "meaning": [
+      "có, sỡ hữu"
+    ],
+    "vocabulary": [
+      {
+        "word": "有意",
+        "hanvi": "HỮU Ý",
+        "meaning": ""
+      },
+      {
+        "word": "烏有",
+        "hanvi": "Ô HỮU",
+        "meaning": ""
+      },
+      {
+        "word": "固有",
+        "hanvi": "CỐ HỮU",
+        "meaning": ""
+      },
+      {
+        "word": "故有",
+        "hanvi": "CỐ HỮU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "开",
+    "rank": 51,
+    "hanvi": "KHAI",
+    "meaning": [
+      "mở ra",
+      "nở (hoa)",
+      "một phần chia"
+    ],
+    "vocabulary": [
+      {
+        "word": "打开",
+        "hanvi": "ĐẢ KHAI",
+        "meaning": ""
+      },
+      {
+        "word": "开幂",
+        "hanvi": "KHAI MẠC",
+        "meaning": ""
+      },
+      {
+        "word": "公开",
+        "hanvi": "CÔNG KHAI",
+        "meaning": ""
+      },
+      {
+        "word": "伸开",
+        "hanvi": "THÂN KHAI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "心",
+    "rank": 52,
+    "hanvi": "TÂM",
+    "meaning": [
+      "lòng",
+      "tim"
+    ],
+    "vocabulary": [
+      {
+        "word": "噁心",
+        "hanvi": "Ố TÂM",
+        "meaning": ""
+      },
+      {
+        "word": "心意",
+        "hanvi": "TÂM Ý",
+        "meaning": ""
+      },
+      {
+        "word": "惡心",
+        "hanvi": "ÁC TÂM",
+        "meaning": ""
+      },
+      {
+        "word": "愛心",
+        "hanvi": "ÁI TÂM",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "头",
+    "rank": 53,
+    "hanvi": "ĐẦU",
+    "meaning": [
+      "cái đầu"
+    ],
+    "vocabulary": [
+      {
+        "word": "头颅",
+        "hanvi": "ĐẦU LÔ",
+        "meaning": ""
+      },
+      {
+        "word": "户头",
+        "hanvi": "HỘ ĐẦU",
+        "meaning": ""
+      },
+      {
+        "word": "码头",
+        "hanvi": "MÃ ĐẦU",
+        "meaning": ""
+      },
+      {
+        "word": "抬头",
+        "hanvi": "SĨ ĐẦU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "想",
+    "rank": 54,
+    "hanvi": "TƯỞNG",
+    "meaning": [
+      "nhớ, nghĩ tới"
+    ],
+    "vocabulary": [
+      {
+        "word": "意想",
+        "hanvi": "Ý TƯỞNG",
+        "meaning": ""
+      },
+      {
+        "word": "奧想",
+        "hanvi": "ÁO TƯỞNG",
+        "meaning": ""
+      },
+      {
+        "word": "幻想",
+        "hanvi": "ẢO TƯỞNG",
+        "meaning": ""
+      },
+      {
+        "word": "遐想",
+        "hanvi": "HÀ TƯỞNG",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "这",
+    "rank": 55,
+    "hanvi": "GIÁ",
+    "meaning": [
+      "này, cái này",
+      "bây giờ, lúc nay"
+    ],
+    "vocabulary": [
+      {
+        "word": "这么",
+        "hanvi": "GIÁ MA",
+        "meaning": ""
+      },
+      {
+        "word": "这些",
+        "hanvi": "GIÁ TA",
+        "meaning": ""
+      },
+      {
+        "word": "这样",
+        "hanvi": "GIÁ DẠNG",
+        "meaning": ""
+      },
+      {
+        "word": "这个",
+        "hanvi": "GIÁ CÁ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "天",
+    "rank": 56,
+    "hanvi": "THIÊN",
+    "meaning": [
+      "trời, bầu trời",
+      "tự nhiên",
+      "ngày"
+    ],
+    "vocabulary": [
+      {
+        "word": "陰天",
+        "hanvi": "ÂM THIÊN",
+        "meaning": ""
+      },
+      {
+        "word": "補天",
+        "hanvi": "BỔ THIÊN",
+        "meaning": ""
+      },
+      {
+        "word": "籲天",
+        "hanvi": "DỤ THIÊN",
+        "meaning": ""
+      },
+      {
+        "word": "夏天",
+        "hanvi": "HẠ THIÊN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "然",
+    "rank": 57,
+    "hanvi": "NHIÊN",
+    "meaning": [
+      "đúng",
+      "thế, vậy",
+      "nhưng"
+    ],
+    "vocabulary": [
+      {
+        "word": "依然",
+        "hanvi": "Y NHIÊN",
+        "meaning": ""
+      },
+      {
+        "word": "暗然",
+        "hanvi": "ÁM NHIÊN",
+        "meaning": ""
+      },
+      {
+        "word": "黯然",
+        "hanvi": "ẢM NHIÊN",
+        "meaning": ""
+      },
+      {
+        "word": "安然",
+        "hanvi": "AN NHIÊN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "会",
+    "rank": 58,
+    "hanvi": "HỘI",
+    "meaning": [
+      "hội hè",
+      "tụ hội",
+      "hiệp hội"
+    ],
+    "vocabulary": [
+      {
+        "word": "机会",
+        "hanvi": "CƠ HỘI",
+        "meaning": ""
+      },
+      {
+        "word": "社会",
+        "hanvi": "XÃ HỘI",
+        "meaning": ""
+      },
+      {
+        "word": "拜会",
+        "hanvi": "BÁI HỘI",
+        "meaning": ""
+      },
+      {
+        "word": "大会",
+        "hanvi": "ĐẠI HỘI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "的",
+    "rank": 59,
+    "hanvi": "ĐÍCH",
+    "meaning": [
+      "của, thuộc về",
+      "đúng, chính xác",
+      "mục tiêu"
+    ],
+    "vocabulary": [
+      {
+        "word": "主的",
+        "hanvi": "CHỦ ĐÍCH",
+        "meaning": ""
+      },
+      {
+        "word": "鵠的",
+        "hanvi": "CỐC ĐÍCH",
+        "meaning": ""
+      },
+      {
+        "word": "的確",
+        "hanvi": "ĐÍCH XÁC",
+        "meaning": ""
+      },
+      {
+        "word": "鵠的",
+        "hanvi": "HỘC ĐÍCH",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "好",
+    "rank": 60,
+    "hanvi": "HẢO",
+    "meaning": [
+      "tốt, hay, đẹp",
+      "sung sướng",
+      "được"
+    ],
+    "vocabulary": [
+      {
+        "word": "安好",
+        "hanvi": "AN HẢO",
+        "meaning": ""
+      },
+      {
+        "word": "好事",
+        "hanvi": "HẢO SỰ",
+        "meaning": ""
+      },
+      {
+        "word": "好處",
+        "hanvi": "HẢO XỨ",
+        "meaning": ""
+      },
+      {
+        "word": "只好",
+        "hanvi": "CHỈ HẢO",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "大",
+    "rank": 61,
+    "hanvi": "ĐẠI",
+    "meaning": [
+      "to, lớn"
+    ],
+    "vocabulary": [
+      {
+        "word": "阿大",
+        "hanvi": "A ĐẠI",
+        "meaning": ""
+      },
+      {
+        "word": "大意",
+        "hanvi": "ĐẠI Ý",
+        "meaning": ""
+      },
+      {
+        "word": "大衣",
+        "hanvi": "ĐẠI Y",
+        "meaning": ""
+      },
+      {
+        "word": "巨大",
+        "hanvi": "CỰ ĐẠI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "点",
+    "rank": 62,
+    "hanvi": "ĐIỂM",
+    "meaning": [
+      "điểm, chấm, nốt, giờ"
+    ],
+    "vocabulary": [
+      {
+        "word": "优点",
+        "hanvi": "ƯU ĐIỂM",
+        "meaning": ""
+      },
+      {
+        "word": "半点",
+        "hanvi": "BÁN ĐIỂM",
+        "meaning": ""
+      },
+      {
+        "word": "斑点",
+        "hanvi": "BAN ĐIỂM",
+        "meaning": ""
+      },
+      {
+        "word": "特点",
+        "hanvi": "ĐẶC ĐIỂM",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "觉",
+    "rank": 63,
+    "hanvi": "GIÁC",
+    "meaning": [
+      "biết",
+      "phát hiện",
+      "tỉnh dậy"
+    ],
+    "vocabulary": [
+      {
+        "word": "自觉",
+        "hanvi": "TỰ GIÁC",
+        "meaning": ""
+      },
+      {
+        "word": "感觉",
+        "hanvi": "CẢM GIÁC",
+        "meaning": ""
+      },
+      {
+        "word": "察觉",
+        "hanvi": "SÁT GIÁC",
+        "meaning": ""
+      },
+      {
+        "word": "发觉",
+        "hanvi": "PHÁT GIÁC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "要",
+    "rank": 64,
+    "hanvi": "YẾU",
+    "meaning": [
+      "quan trọng, nhất định phải"
+    ],
+    "vocabulary": [
+      {
+        "word": "要隘",
+        "hanvi": "YẾU ẢI",
+        "meaning": ""
+      },
+      {
+        "word": "要里",
+        "hanvi": "YẾU LÍ",
+        "meaning": ""
+      },
+      {
+        "word": "要路",
+        "hanvi": "YẾU LỘ",
+        "meaning": ""
+      },
+      {
+        "word": "要素",
+        "hanvi": "YẾU TỐ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "道",
+    "rank": 65,
+    "hanvi": "ĐẠO",
+    "meaning": [
+      "đường, tia",
+      "đạo",
+      "nói"
+    ],
+    "vocabulary": [
+      {
+        "word": "惡道",
+        "hanvi": "ÁC ĐẠO",
+        "meaning": ""
+      },
+      {
+        "word": "陰道",
+        "hanvi": "ÂM ĐẠO",
+        "meaning": ""
+      },
+      {
+        "word": "霸道",
+        "hanvi": "BÁ ĐẠO",
+        "meaning": ""
+      },
+      {
+        "word": "步道",
+        "hanvi": "BỘ ĐẠO",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "她",
+    "rank": 66,
+    "hanvi": "THA",
+    "meaning": [
+      "cô ấy, chị ấy"
+    ],
+    "vocabulary": [
+      {
+        "word": "她们",
+        "hanvi": "THA MÔN",
+        "meaning": ""
+      },
+      {
+        "word": "她玛",
+        "hanvi": "THA MÃ",
+        "meaning": ""
+      },
+      {
+        "word": "她经济",
+        "hanvi": "THA KINH TẾ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "什",
+    "rank": 67,
+    "hanvi": "THẬP",
+    "meaning": [
+      "hàng chục (hàng gồm 10 lính)",
+      "một quyển",
+      "các đồ lặt vặt"
+    ],
+    "vocabulary": [
+      {
+        "word": "什么",
+        "hanvi": "THẬP MA",
+        "meaning": ""
+      },
+      {
+        "word": "什麼",
+        "hanvi": "THẬP MA",
+        "meaning": ""
+      },
+      {
+        "word": "什錦",
+        "hanvi": "THẬP CẨM",
+        "meaning": ""
+      },
+      {
+        "word": "什锦",
+        "hanvi": "THẬP CẨM",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "事",
+    "rank": 68,
+    "hanvi": "SỰ",
+    "meaning": [
+      "việc",
+      "làm việc",
+      "thờ"
+    ],
+    "vocabulary": [
+      {
+        "word": "案事",
+        "hanvi": "ÁN SỰ",
+        "meaning": ""
+      },
+      {
+        "word": "陰事",
+        "hanvi": "ÂM SỰ",
+        "meaning": ""
+      },
+      {
+        "word": "鄙事",
+        "hanvi": "BỈ SỰ",
+        "meaning": ""
+      },
+      {
+        "word": "故事",
+        "hanvi": "CỐ SỰ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "段",
+    "rank": 69,
+    "hanvi": "ĐOẠN",
+    "meaning": [
+      "đoạn, khúc",
+      "quãng, khoảng",
+      "họ Đoàn (âm Đoàn)"
+    ],
+    "vocabulary": [
+      {
+        "word": "段落",
+        "hanvi": "ĐOẠN LẠC",
+        "meaning": ""
+      },
+      {
+        "word": "手段",
+        "hanvi": "THỦ ĐOẠN",
+        "meaning": ""
+      },
+      {
+        "word": "階段",
+        "hanvi": "GIAI ĐOẠN",
+        "meaning": ""
+      },
+      {
+        "word": "三段論",
+        "hanvi": "TAM ĐOẠN LUẬN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "回",
+    "rank": 70,
+    "hanvi": "HỒI",
+    "meaning": [
+      "về",
+      "đạo Hồi, Hồi giáo"
+    ],
+    "vocabulary": [
+      {
+        "word": "回音",
+        "hanvi": "HỒI ÂM",
+        "meaning": ""
+      },
+      {
+        "word": "回顧",
+        "hanvi": "HỒI CỐ",
+        "meaning": ""
+      },
+      {
+        "word": "回顾",
+        "hanvi": "HỒI CỐ",
+        "meaning": ""
+      },
+      {
+        "word": "回事",
+        "hanvi": "HỒI SỰ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "小",
+    "rank": 71,
+    "hanvi": "TIỂU",
+    "meaning": [
+      "nhỏ bé"
+    ],
+    "vocabulary": [
+      {
+        "word": "係小",
+        "hanvi": "HỆ TIỂU",
+        "meaning": ""
+      },
+      {
+        "word": "卑小",
+        "hanvi": "TI TIỂU",
+        "meaning": ""
+      },
+      {
+        "word": "小河",
+        "hanvi": "TIỂU HÀ",
+        "meaning": ""
+      },
+      {
+        "word": "小路",
+        "hanvi": "TIỂU LỘ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "上",
+    "rank": 72,
+    "hanvi": "THƯỢNG",
+    "meaning": [
+      "đi lên",
+      "ở phía trên"
+    ],
+    "vocabulary": [
+      {
+        "word": "上衣",
+        "hanvi": "THƯỢNG Y",
+        "meaning": ""
+      },
+      {
+        "word": "以上",
+        "hanvi": "DĨ THƯỢNG",
+        "meaning": ""
+      },
+      {
+        "word": "馬上",
+        "hanvi": "MÃ THƯỢNG",
+        "meaning": ""
+      },
+      {
+        "word": "上个",
+        "hanvi": "THƯỢNG CÁ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "清",
+    "rank": 73,
+    "hanvi": "THANH",
+    "meaning": [
+      "trong sạch (nước)",
+      "đời nhà Thanh",
+      "họ Thanh"
+    ],
+    "vocabulary": [
+      {
+        "word": "清夜",
+        "hanvi": "THANH DẠ",
+        "meaning": ""
+      },
+      {
+        "word": "清遊",
+        "hanvi": "THANH DU",
+        "meaning": ""
+      },
+      {
+        "word": "清楚",
+        "hanvi": "THANH SỞ",
+        "meaning": ""
+      },
+      {
+        "word": "清秀",
+        "hanvi": "THANH TÚ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "身",
+    "rank": 74,
+    "hanvi": "THÂN",
+    "meaning": [
+      "thân thể"
+    ],
+    "vocabulary": [
+      {
+        "word": "安身",
+        "hanvi": "AN THÂN",
+        "meaning": ""
+      },
+      {
+        "word": "幻身",
+        "hanvi": "ẢO THÂN",
+        "meaning": ""
+      },
+      {
+        "word": "隱身",
+        "hanvi": "ẨN THÂN",
+        "meaning": ""
+      },
+      {
+        "word": "孤身",
+        "hanvi": "CÔ THÂN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "声",
+    "rank": 75,
+    "hanvi": "THANH",
+    "meaning": [
+      "tiếng, âm thanh"
+    ],
+    "vocabulary": [
+      {
+        "word": "回声",
+        "hanvi": "HỒI THANH",
+        "meaning": ""
+      },
+      {
+        "word": "噪声",
+        "hanvi": "TÁO THANH",
+        "meaning": ""
+      },
+      {
+        "word": "小声",
+        "hanvi": "TIỂU THANH",
+        "meaning": ""
+      },
+      {
+        "word": "叫声",
+        "hanvi": "KHIẾU THANH",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "被",
+    "rank": 76,
+    "hanvi": "BỊ",
+    "meaning": [
+      "áo ngủ",
+      "chăn, mền",
+      "phủ lấp, che kín"
+    ],
+    "vocabulary": [
+      {
+        "word": "被衣",
+        "hanvi": "BỊ Y",
+        "meaning": ""
+      },
+      {
+        "word": "被離",
+        "hanvi": "BỊ LI",
+        "meaning": ""
+      },
+      {
+        "word": "被干",
+        "hanvi": "BỊ CAN",
+        "meaning": ""
+      },
+      {
+        "word": "被告",
+        "hanvi": "BỊ CÁO",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "我",
+    "rank": 77,
+    "hanvi": "NGÃ",
+    "meaning": [
+      "tôi, tao"
+    ],
+    "vocabulary": [
+      {
+        "word": "嗟我",
+        "hanvi": "TA NGÃ",
+        "meaning": ""
+      },
+      {
+        "word": "爲我",
+        "hanvi": "VỊ NGÃ",
+        "meaning": ""
+      },
+      {
+        "word": "無我",
+        "hanvi": "VÔ NGÃ",
+        "meaning": ""
+      },
+      {
+        "word": "主我",
+        "hanvi": "CHỦ NGÃ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "知",
+    "rank": 78,
+    "hanvi": "TRI",
+    "meaning": [
+      "biết",
+      "quen nhau"
+    ],
+    "vocabulary": [
+      {
+        "word": "安知",
+        "hanvi": "AN TRI",
+        "meaning": ""
+      },
+      {
+        "word": "故知",
+        "hanvi": "CỐ TRI",
+        "meaning": ""
+      },
+      {
+        "word": "易知",
+        "hanvi": "DỊ TRI",
+        "meaning": ""
+      },
+      {
+        "word": "哪知",
+        "hanvi": "NA TRI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "说",
+    "rank": 79,
+    "hanvi": "THUYẾT",
+    "meaning": [
+      "nói, giảng"
+    ],
+    "vocabulary": [
+      {
+        "word": "据说",
+        "hanvi": "CỨ THUYẾT",
+        "meaning": ""
+      },
+      {
+        "word": "乱说",
+        "hanvi": "LOẠN THUYẾT",
+        "meaning": ""
+      },
+      {
+        "word": "小说",
+        "hanvi": "TIỂU THUYẾT",
+        "meaning": ""
+      },
+      {
+        "word": "勸说",
+        "hanvi": "KHUYẾN THUYẾT",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "正",
+    "rank": 80,
+    "hanvi": "CHÍNH",
+    "meaning": [
+      "giữa",
+      "chính, ngay thẳng"
+    ],
+    "vocabulary": [
+      {
+        "word": "補正",
+        "hanvi": "BỔ CHÍNH",
+        "meaning": ""
+      },
+      {
+        "word": "正理",
+        "hanvi": "CHÍNH LÍ",
+        "meaning": ""
+      },
+      {
+        "word": "正路",
+        "hanvi": "CHÍNH LỘ",
+        "meaning": ""
+      },
+      {
+        "word": "正理",
+        "hanvi": "CHÍNH LÝ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "给",
+    "rank": 81,
+    "hanvi": "CẤP",
+    "meaning": [
+      "đủ dùng",
+      "cấp, phát"
+    ],
+    "vocabulary": [
+      {
+        "word": "自给",
+        "hanvi": "TỰ CẤP",
+        "meaning": ""
+      },
+      {
+        "word": "供给",
+        "hanvi": "CUNG CẤP",
+        "meaning": ""
+      },
+      {
+        "word": "分给",
+        "hanvi": "PHÂN CẤP",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "及",
+    "rank": 82,
+    "hanvi": "CẬP",
+    "meaning": [
+      "tới, đến, kịp",
+      "bằng",
+      "cùng với, và"
+    ],
+    "vocabulary": [
+      {
+        "word": "哀及",
+        "hanvi": "AI CẬP",
+        "meaning": ""
+      },
+      {
+        "word": "埃及",
+        "hanvi": "AI CẬP",
+        "meaning": ""
+      },
+      {
+        "word": "波及",
+        "hanvi": "BA CẬP",
+        "meaning": ""
+      },
+      {
+        "word": "及第",
+        "hanvi": "CẬP ĐỆ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "生",
+    "rank": 83,
+    "hanvi": "SINH",
+    "meaning": [
+      "sinh đẻ",
+      "sống"
+    ],
+    "vocabulary": [
+      {
+        "word": "生意",
+        "hanvi": "SINH Ý",
+        "meaning": ""
+      },
+      {
+        "word": "醫生",
+        "hanvi": "Y SINH",
+        "meaning": ""
+      },
+      {
+        "word": "安生",
+        "hanvi": "AN SINH",
+        "meaning": ""
+      },
+      {
+        "word": "廕生",
+        "hanvi": "ẤM SINH",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "很",
+    "rank": 84,
+    "hanvi": "NGẬN",
+    "meaning": [
+      "bướng, ác",
+      "tham lam",
+      "rất, lắm"
+    ],
+    "vocabulary": [
+      {
+        "word": "不很",
+        "hanvi": "BẤT NGẬN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "机",
+    "rank": 85,
+    "hanvi": "CƠ",
+    "meaning": [
+      "công việc",
+      "máy móc"
+    ],
+    "vocabulary": [
+      {
+        "word": "机组",
+        "hanvi": "CƠ TỔ",
+        "meaning": ""
+      },
+      {
+        "word": "司机",
+        "hanvi": "TY CƠ",
+        "meaning": ""
+      },
+      {
+        "word": "微机",
+        "hanvi": "VI CƠ",
+        "meaning": ""
+      },
+      {
+        "word": "扳机",
+        "hanvi": "BAN CƠ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "己",
+    "rank": 86,
+    "hanvi": "KỈ",
+    "meaning": [
+      "(Danh) Can “Kỉ”, can thứ sáu trong mười can",
+      "(Danh) Từ dùng cho thứ tự, chỉ hàng thứ sáu.◎Như:三年己班tam niên kỉ bannăm thứ ba ban thứ sáu",
+      "(Đại) Mình, đối lại với người.◎Như:爲己vị kỉchỉ vì mình利己lợi kỉchỉ lợi mình.◇Luận Ngữ 論語:己所不欲, 勿施於人Kỉ sở bất dục, vật thi ư nhân(Nhan Uyên 顏淵) Cái gì mình không muốn, thì đừng làm cho người"
+    ],
+    "vocabulary": [
+      {
+        "word": "愛己",
+        "hanvi": "ÁI KỈ",
+        "meaning": ""
+      },
+      {
+        "word": "異己",
+        "hanvi": "DỊ KỈ",
+        "meaning": ""
+      },
+      {
+        "word": "私己",
+        "hanvi": "TƯ KỈ",
+        "meaning": ""
+      },
+      {
+        "word": "自己",
+        "hanvi": "TỰ KỈ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "业",
+    "rank": 87,
+    "hanvi": "NGHIỆP",
+    "meaning": [
+      "nghề nghiệp, sự nghiệp"
+    ],
+    "vocabulary": [
+      {
+        "word": "业余",
+        "hanvi": "NGHIỆP DƯ",
+        "meaning": ""
+      },
+      {
+        "word": "业务",
+        "hanvi": "NGHIỆP VỤ",
+        "meaning": ""
+      },
+      {
+        "word": "事业",
+        "hanvi": "SỰ NGHIỆP",
+        "meaning": ""
+      },
+      {
+        "word": "伟业",
+        "hanvi": "VĨ NGHIỆP",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "能",
+    "rank": 88,
+    "hanvi": "NĂNG",
+    "meaning": [
+      "khả năng, có thể"
+    ],
+    "vocabulary": [
+      {
+        "word": "安能",
+        "hanvi": "AN NĂNG",
+        "meaning": ""
+      },
+      {
+        "word": "机能",
+        "hanvi": "CƠ NĂNG",
+        "meaning": ""
+      },
+      {
+        "word": "機能",
+        "hanvi": "CƠ NĂNG",
+        "meaning": ""
+      },
+      {
+        "word": "異能",
+        "hanvi": "DỊ NĂNG",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "把",
+    "rank": 89,
+    "hanvi": "BẢ",
+    "meaning": [
+      "cầm, nắm, giữ",
+      "canh giữ, gác trông",
+      "chuôi, cán, tay cầm, tay nắm"
+    ],
+    "vocabulary": [
+      {
+        "word": "把握",
+        "hanvi": "BẢ ÁC",
+        "meaning": ""
+      },
+      {
+        "word": "把舵",
+        "hanvi": "BẢ ĐÀ",
+        "meaning": ""
+      },
+      {
+        "word": "把戏",
+        "hanvi": "BẢ HÍ",
+        "meaning": ""
+      },
+      {
+        "word": "把戲",
+        "hanvi": "BẢ HÍ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "气",
+    "rank": 90,
+    "hanvi": "KHÍ",
+    "meaning": [
+      "khí, hơi"
+    ],
+    "vocabulary": [
+      {
+        "word": "意气",
+        "hanvi": "Ý KHÍ",
+        "meaning": ""
+      },
+      {
+        "word": "气车",
+        "hanvi": "KHÍ XA",
+        "meaning": ""
+      },
+      {
+        "word": "大气",
+        "hanvi": "ĐẠI KHÍ",
+        "meaning": ""
+      },
+      {
+        "word": "氮气",
+        "hanvi": "ĐẠM KHÍ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "自",
+    "rank": 91,
+    "hanvi": "TỰ",
+    "meaning": [
+      "tự mình, riêng tư",
+      "tự nhiên, tất nhiên",
+      "từ, do (liên từ)"
+    ],
+    "vocabulary": [
+      {
+        "word": "自意",
+        "hanvi": "TỰ Ý",
+        "meaning": ""
+      },
+      {
+        "word": "暗自",
+        "hanvi": "ÁM TỰ",
+        "meaning": ""
+      },
+      {
+        "word": "自愛",
+        "hanvi": "TỰ ÁI",
+        "meaning": ""
+      },
+      {
+        "word": "自縊",
+        "hanvi": "TỰ ẢI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "完",
+    "rank": 92,
+    "hanvi": "HOÀN",
+    "meaning": [
+      "hết, xong",
+      "vẹn, đủ"
+    ],
+    "vocabulary": [
+      {
+        "word": "完備",
+        "hanvi": "HOÀN BỊ",
+        "meaning": ""
+      },
+      {
+        "word": "完美",
+        "hanvi": "HOÀN MĨ",
+        "meaning": ""
+      },
+      {
+        "word": "完美",
+        "hanvi": "HOÀN MỸ",
+        "meaning": ""
+      },
+      {
+        "word": "完好",
+        "hanvi": "HOÀN HẢO",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "学",
+    "rank": 93,
+    "hanvi": "HỌC",
+    "meaning": [
+      "học hành"
+    ],
+    "vocabulary": [
+      {
+        "word": "学徒",
+        "hanvi": "HỌC ĐỒ",
+        "meaning": ""
+      },
+      {
+        "word": "学期",
+        "hanvi": "HỌC KỲ",
+        "meaning": ""
+      },
+      {
+        "word": "学位",
+        "hanvi": "HỌC VỊ",
+        "meaning": ""
+      },
+      {
+        "word": "数学",
+        "hanvi": "SỐ HỌC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "口",
+    "rank": 94,
+    "hanvi": "KHẨU",
+    "meaning": [
+      "mồm, miệng",
+      "cửa"
+    ],
+    "vocabulary": [
+      {
+        "word": "瘂口",
+        "hanvi": "Á KHẨU",
+        "meaning": ""
+      },
+      {
+        "word": "惡口",
+        "hanvi": "ÁC KHẨU",
+        "meaning": ""
+      },
+      {
+        "word": "拗口",
+        "hanvi": "ẢO KHẨU",
+        "meaning": ""
+      },
+      {
+        "word": "度口",
+        "hanvi": "ĐỘ KHẨU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "们",
+    "rank": 95,
+    "hanvi": "MÔN",
+    "meaning": [
+      "bọn, các, chúng"
+    ],
+    "vocabulary": [
+      {
+        "word": "咱们",
+        "hanvi": "CHA MÔN",
+        "meaning": ""
+      },
+      {
+        "word": "你们",
+        "hanvi": "NHĨ MÔN",
+        "meaning": ""
+      },
+      {
+        "word": "他们",
+        "hanvi": "THA MÔN",
+        "meaning": ""
+      },
+      {
+        "word": "它们",
+        "hanvi": "THA MÔN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "只",
+    "rank": 96,
+    "hanvi": "CHỈ",
+    "meaning": [
+      "chỉ, mỗi một"
+    ],
+    "vocabulary": [
+      {
+        "word": "不只",
+        "hanvi": "BẤT CHỈ",
+        "meaning": ""
+      },
+      {
+        "word": "只好",
+        "hanvi": "CHỈ HẢO",
+        "meaning": ""
+      },
+      {
+        "word": "只有",
+        "hanvi": "CHỈ HỮU",
+        "meaning": ""
+      },
+      {
+        "word": "只是",
+        "hanvi": "CHỈ THỊ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "各",
+    "rank": 97,
+    "hanvi": "CÁC",
+    "meaning": [
+      "mỗi một",
+      "đều, cùng"
+    ],
+    "vocabulary": [
+      {
+        "word": "各个",
+        "hanvi": "CÁC CÁ",
+        "meaning": ""
+      },
+      {
+        "word": "各個",
+        "hanvi": "CÁC CÁ",
+        "meaning": ""
+      },
+      {
+        "word": "各位",
+        "hanvi": "CÁC VỊ",
+        "meaning": ""
+      },
+      {
+        "word": "各国",
+        "hanvi": "CÁC QUỐC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "都",
+    "rank": 98,
+    "hanvi": "ĐÔ",
+    "meaning": [
+      "tất cả, toàn bộ",
+      "đã",
+      "thủ phủ, thủ đô"
+    ],
+    "vocabulary": [
+      {
+        "word": "伯都",
+        "hanvi": "BÁ ĐÔ",
+        "meaning": ""
+      },
+      {
+        "word": "故都",
+        "hanvi": "CỐ ĐÔ",
+        "meaning": ""
+      },
+      {
+        "word": "帝都",
+        "hanvi": "ĐẾ ĐÔ",
+        "meaning": ""
+      },
+      {
+        "word": "都護",
+        "hanvi": "ĐÔ HỘ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "可",
+    "rank": 99,
+    "hanvi": "KHẢ",
+    "meaning": [
+      "có thể"
+    ],
+    "vocabulary": [
+      {
+        "word": "可惡",
+        "hanvi": "KHẢ Ố",
+        "meaning": ""
+      },
+      {
+        "word": "猶可",
+        "hanvi": "DO KHẢ",
+        "meaning": ""
+      },
+      {
+        "word": "可哀",
+        "hanvi": "KHẢ AI",
+        "meaning": ""
+      },
+      {
+        "word": "可愛",
+        "hanvi": "KHẢ ÁI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "是",
+    "rank": 100,
+    "hanvi": "THỊ",
+    "meaning": [
+      "là",
+      "đúng"
+    ],
+    "vocabulary": [
+      {
+        "word": "於是",
+        "hanvi": "Ư THỊ",
+        "meaning": ""
+      },
+      {
+        "word": "也是",
+        "hanvi": "DÃ THỊ",
+        "meaning": ""
+      },
+      {
+        "word": "本是",
+        "hanvi": "BỔN THỊ",
+        "meaning": ""
+      },
+      {
+        "word": "只是",
+        "hanvi": "CHỈ THỊ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "又",
+    "rank": 101,
+    "hanvi": "HỰU",
+    "meaning": [
+      "cũng, lại còn"
+    ],
+    "vocabulary": [
+      {
+        "word": "又名",
+        "hanvi": "HỰU DANH",
+        "meaning": ""
+      },
+      {
+        "word": "又称",
+        "hanvi": "HỰU XƯNG",
+        "meaning": ""
+      },
+      {
+        "word": "又及",
+        "hanvi": "HỰU CẬP",
+        "meaning": ""
+      },
+      {
+        "word": "重又",
+        "hanvi": "TRỌNG HỰU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "也",
+    "rank": 102,
+    "hanvi": "DÃ",
+    "meaning": [
+      "cũng",
+      "vậy"
+    ],
+    "vocabulary": [
+      {
+        "word": "意也",
+        "hanvi": "Ý DÃ",
+        "meaning": ""
+      },
+      {
+        "word": "也不",
+        "hanvi": "DÃ BẤT",
+        "meaning": ""
+      },
+      {
+        "word": "也許",
+        "hanvi": "DÃ HỨA",
+        "meaning": ""
+      },
+      {
+        "word": "也许",
+        "hanvi": "DÃ HỨA",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "面",
+    "rank": 103,
+    "hanvi": "DIỆN",
+    "meaning": [
+      "mặt",
+      "bề mặt"
+    ],
+    "vocabulary": [
+      {
+        "word": "暗面",
+        "hanvi": "ÁM DIỆN",
+        "meaning": ""
+      },
+      {
+        "word": "面具",
+        "hanvi": "DIỆN CỤ",
+        "meaning": ""
+      },
+      {
+        "word": "面諛",
+        "hanvi": "DIỆN DU",
+        "meaning": ""
+      },
+      {
+        "word": "面譽",
+        "hanvi": "DIỆN DỰ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "科",
+    "rank": 104,
+    "hanvi": "KHOA",
+    "meaning": [
+      "khoa, bộ môn",
+      "xử tội, kết án",
+      "khoa cử, khoa thi"
+    ],
+    "vocabulary": [
+      {
+        "word": "瘂科",
+        "hanvi": "Á KHOA",
+        "meaning": ""
+      },
+      {
+        "word": "醫科",
+        "hanvi": "Y KHOA",
+        "meaning": ""
+      },
+      {
+        "word": "恩科",
+        "hanvi": "ÂN KHOA",
+        "meaning": ""
+      },
+      {
+        "word": "乙科",
+        "hanvi": "ẤT KHOA",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "笑",
+    "rank": 105,
+    "hanvi": "TIẾU",
+    "meaning": [
+      "cười"
+    ],
+    "vocabulary": [
+      {
+        "word": "暗笑",
+        "hanvi": "ÁM TIẾU",
+        "meaning": ""
+      },
+      {
+        "word": "鄙笑",
+        "hanvi": "BỈ TIẾU",
+        "meaning": ""
+      },
+      {
+        "word": "遺笑",
+        "hanvi": "DI TIẾU",
+        "meaning": ""
+      },
+      {
+        "word": "熙笑",
+        "hanvi": "HI TIẾU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "深",
+    "rank": 106,
+    "hanvi": "THÂM",
+    "meaning": [
+      "sâu",
+      "khuya (đêm)"
+    ],
+    "vocabulary": [
+      {
+        "word": "深幽",
+        "hanvi": "THÂM U",
+        "meaning": ""
+      },
+      {
+        "word": "深意",
+        "hanvi": "THÂM Ý",
+        "meaning": ""
+      },
+      {
+        "word": "深謝",
+        "hanvi": "THÂM TẠ",
+        "meaning": ""
+      },
+      {
+        "word": "鉤深",
+        "hanvi": "CÂU THÂM",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "家",
+    "rank": 107,
+    "hanvi": "GIA",
+    "meaning": [
+      "nhà",
+      "tiếng vợ gọi chồng"
+    ],
+    "vocabulary": [
+      {
+        "word": "安家",
+        "hanvi": "AN GIA",
+        "meaning": ""
+      },
+      {
+        "word": "恩家",
+        "hanvi": "ÂN GIA",
+        "meaning": ""
+      },
+      {
+        "word": "婆家",
+        "hanvi": "BÀ GIA",
+        "meaning": ""
+      },
+      {
+        "word": "備家",
+        "hanvi": "BỊ GIA",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "吗",
+    "rank": 108,
+    "hanvi": "MẠ",
+    "meaning": [
+      "(xem: mạ phê 嗎啡,吗啡)"
+    ],
+    "vocabulary": [
+      {
+        "word": "吗啡",
+        "hanvi": "MẠ PHÊ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "哥",
+    "rank": 109,
+    "hanvi": "CA",
+    "meaning": [
+      "anh trai"
+    ],
+    "vocabulary": [
+      {
+        "word": "阿哥",
+        "hanvi": "A CA",
+        "meaning": ""
+      },
+      {
+        "word": "哥哥",
+        "hanvi": "CA CA",
+        "meaning": ""
+      },
+      {
+        "word": "鸚哥",
+        "hanvi": "ANH CA",
+        "meaning": ""
+      },
+      {
+        "word": "大哥",
+        "hanvi": "ĐẠI CA",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "低",
+    "rank": 110,
+    "hanvi": "ĐÊ",
+    "meaning": [
+      "thấp",
+      "cúi xuống",
+      "hạ xuống"
+    ],
+    "vocabulary": [
+      {
+        "word": "低音",
+        "hanvi": "ĐÊ ÂM",
+        "meaning": ""
+      },
+      {
+        "word": "低下",
+        "hanvi": "ĐÊ HẠ",
+        "meaning": ""
+      },
+      {
+        "word": "低迷",
+        "hanvi": "ĐÊ MÊ",
+        "meaning": ""
+      },
+      {
+        "word": "低于",
+        "hanvi": "ĐÊ VU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "样",
+    "rank": 111,
+    "hanvi": "DẠNG",
+    "meaning": [
+      "hình dạng, dáng vẻ",
+      "mẫu"
+    ],
+    "vocabulary": [
+      {
+        "word": "样机",
+        "hanvi": "DẠNG CƠ",
+        "meaning": ""
+      },
+      {
+        "word": "样本",
+        "hanvi": "DẠNG BẢN",
+        "meaning": ""
+      },
+      {
+        "word": "样品",
+        "hanvi": "DẠNG PHẨM",
+        "meaning": ""
+      },
+      {
+        "word": "样式",
+        "hanvi": "DẠNG THỨC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "脸",
+    "rank": 112,
+    "hanvi": "KIỂM",
+    "meaning": [
+      "mặt, má"
+    ],
+    "vocabulary": [
+      {
+        "word": "痲脸",
+        "hanvi": "MA KIỂM",
+        "meaning": ""
+      },
+      {
+        "word": "丢脸",
+        "hanvi": "ĐÂU KIỂM",
+        "meaning": ""
+      },
+      {
+        "word": "愁眉苦脸",
+        "hanvi": "SẦU MY KHỔ KIỂM",
+        "meaning": ""
+      },
+      {
+        "word": "鼻青脸肿",
+        "hanvi": "TỴ THANH KIỂM THŨNG",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "住",
+    "rank": 113,
+    "hanvi": "TRỤ",
+    "meaning": [
+      "ở",
+      "thôi, dừng",
+      "còn đấy"
+    ],
+    "vocabulary": [
+      {
+        "word": "握住",
+        "hanvi": "ÁC TRỤ",
+        "meaning": ""
+      },
+      {
+        "word": "記住",
+        "hanvi": "KÍ TRỤ",
+        "meaning": ""
+      },
+      {
+        "word": "住所",
+        "hanvi": "TRỤ SỞ",
+        "meaning": ""
+      },
+      {
+        "word": "不住",
+        "hanvi": "BẤT TRỤ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "必",
+    "rank": 114,
+    "hanvi": "TẤT",
+    "meaning": [
+      "tất yếu, ắt, nhất định",
+      "cần phải"
+    ],
+    "vocabulary": [
+      {
+        "word": "何必",
+        "hanvi": "HÀ TẤT",
+        "meaning": ""
+      },
+      {
+        "word": "必須",
+        "hanvi": "TẤT TU",
+        "meaning": ""
+      },
+      {
+        "word": "必须",
+        "hanvi": "TẤT TU",
+        "meaning": ""
+      },
+      {
+        "word": "未必",
+        "hanvi": "VỊ TẤT",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "别",
+    "rank": 115,
+    "hanvi": "BIỆT",
+    "meaning": [
+      "chia tay, xa cách",
+      "khác biệt",
+      "quay, ngoảnh, chuyển"
+    ],
+    "vocabulary": [
+      {
+        "word": "握别",
+        "hanvi": "ÁC BIỆT",
+        "meaning": ""
+      },
+      {
+        "word": "别離",
+        "hanvi": "BIỆT LY",
+        "meaning": ""
+      },
+      {
+        "word": "别无",
+        "hanvi": "BIỆT VÔ",
+        "meaning": ""
+      },
+      {
+        "word": "别处",
+        "hanvi": "BIỆT XỨ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "现",
+    "rank": 116,
+    "hanvi": "HIỆN",
+    "meaning": [
+      "xuất hiện, tồn tại",
+      "bây giờ"
+    ],
+    "vocabulary": [
+      {
+        "word": "现代",
+        "hanvi": "HIỆN ĐẠI",
+        "meaning": ""
+      },
+      {
+        "word": "现金",
+        "hanvi": "HIỆN KIM",
+        "meaning": ""
+      },
+      {
+        "word": "现在",
+        "hanvi": "HIỆN TẠI",
+        "meaning": ""
+      },
+      {
+        "word": "表现",
+        "hanvi": "BIỂU HIỆN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "话",
+    "rank": 117,
+    "hanvi": "THOẠI",
+    "meaning": [
+      "nói"
+    ],
+    "vocabulary": [
+      {
+        "word": "对话",
+        "hanvi": "ĐỐI THOẠI",
+        "meaning": ""
+      },
+      {
+        "word": "屁话",
+        "hanvi": "THÍ THOẠI",
+        "meaning": ""
+      },
+      {
+        "word": "电话",
+        "hanvi": "ĐIỆN THOẠI",
+        "meaning": ""
+      },
+      {
+        "word": "梦话",
+        "hanvi": "MỘNG THOẠI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "年",
+    "rank": 118,
+    "hanvi": "NIÊN",
+    "meaning": [
+      "năm",
+      "tuổi",
+      "được mùa"
+    ],
+    "vocabulary": [
+      {
+        "word": "綺年",
+        "hanvi": "Ỷ NIÊN",
+        "meaning": ""
+      },
+      {
+        "word": "比年",
+        "hanvi": "BỈ NIÊN",
+        "meaning": ""
+      },
+      {
+        "word": "饑年",
+        "hanvi": "CƠ NIÊN",
+        "meaning": ""
+      },
+      {
+        "word": "餘年",
+        "hanvi": "DƯ NIÊN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "跟",
+    "rank": 119,
+    "hanvi": "CÂN",
+    "meaning": [
+      "gót chân",
+      "đi theo chân",
+      "với, và"
+    ],
+    "vocabulary": [
+      {
+        "word": "跟踪",
+        "hanvi": "CÂN TUNG",
+        "meaning": ""
+      },
+      {
+        "word": "跟着",
+        "hanvi": "CÂN TRƯỚC",
+        "meaning": ""
+      },
+      {
+        "word": "跟前",
+        "hanvi": "CÂN TIỀN",
+        "meaning": ""
+      },
+      {
+        "word": "跟前",
+        "hanvi": "CÂN TIỀN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "走",
+    "rank": 120,
+    "hanvi": "TẨU",
+    "meaning": [
+      "chạy",
+      "tẩu (tiếng xưng hô)"
+    ],
+    "vocabulary": [
+      {
+        "word": "走馬",
+        "hanvi": "TẨU MÃ",
+        "meaning": ""
+      },
+      {
+        "word": "奔走",
+        "hanvi": "BÔN TẨU",
+        "meaning": ""
+      },
+      {
+        "word": "逃走",
+        "hanvi": "ĐÀO TẨU",
+        "meaning": ""
+      },
+      {
+        "word": "潰走",
+        "hanvi": "HỘI TẨU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "见",
+    "rank": 121,
+    "hanvi": "KIẾN",
+    "meaning": [
+      "gặp, thấy"
+    ],
+    "vocabulary": [
+      {
+        "word": "意见",
+        "hanvi": "Ý KIẾN",
+        "meaning": ""
+      },
+      {
+        "word": "拜见",
+        "hanvi": "BÁI KIẾN",
+        "meaning": ""
+      },
+      {
+        "word": "会见",
+        "hanvi": "HỘI KIẾN",
+        "meaning": ""
+      },
+      {
+        "word": "再见",
+        "hanvi": "TÁI KIẾN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "部",
+    "rank": 122,
+    "hanvi": "BỘ",
+    "meaning": [
+      "bộ, khoa, ngành, ban",
+      "bộ (sách, phim,...)"
+    ],
+    "vocabulary": [
+      {
+        "word": "陰部",
+        "hanvi": "ÂM BỘ",
+        "meaning": ""
+      },
+      {
+        "word": "部居",
+        "hanvi": "BỘ CƯ",
+        "meaning": ""
+      },
+      {
+        "word": "部下",
+        "hanvi": "BỘ HẠ",
+        "meaning": ""
+      },
+      {
+        "word": "舉部",
+        "hanvi": "CỬ BỘ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "间",
+    "rank": 123,
+    "hanvi": "GIAN",
+    "meaning": [
+      "khoảng không gian"
+    ],
+    "vocabulary": [
+      {
+        "word": "夜间",
+        "hanvi": "DẠ GIAN",
+        "meaning": ""
+      },
+      {
+        "word": "之间",
+        "hanvi": "CHI GIAN",
+        "meaning": ""
+      },
+      {
+        "word": "民间",
+        "hanvi": "DÂN GIAN",
+        "meaning": ""
+      },
+      {
+        "word": "世间",
+        "hanvi": "THẾ GIAN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "前",
+    "rank": 124,
+    "hanvi": "TIỀN",
+    "meaning": [
+      "trước"
+    ],
+    "vocabulary": [
+      {
+        "word": "以前",
+        "hanvi": "DĨ TIỀN",
+        "meaning": ""
+      },
+      {
+        "word": "前提",
+        "hanvi": "TIỀN ĐỀ",
+        "meaning": ""
+      },
+      {
+        "word": "前題",
+        "hanvi": "TIỀN ĐỀ",
+        "meaning": ""
+      },
+      {
+        "word": "前途",
+        "hanvi": "TIỀN ĐỒ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "男",
+    "rank": 125,
+    "hanvi": "NAM",
+    "meaning": [
+      "đàn ông, con trai",
+      "tước Nam"
+    ],
+    "vocabulary": [
+      {
+        "word": "舉男",
+        "hanvi": "CỬ NAM",
+        "meaning": ""
+      },
+      {
+        "word": "男女",
+        "hanvi": "NAM NỮ",
+        "meaning": ""
+      },
+      {
+        "word": "男子",
+        "hanvi": "NAM TỬ",
+        "meaning": ""
+      },
+      {
+        "word": "男兒",
+        "hanvi": "NAM NHI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "啊",
+    "rank": 126,
+    "hanvi": "A",
+    "meaning": [
+      "hả, hở (thán từ dùng để hỏi)",
+      "ừ, ờ (thán từ chỉ sự đồng ý)",
+      "ôi (thán từ chỉ sự tán thưởng)"
+    ],
+    "vocabulary": [
+      {
+        "word": "啊呀",
+        "hanvi": "A NHA",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "情",
+    "rank": 127,
+    "hanvi": "TÌNH",
+    "meaning": [
+      "tình cảm"
+    ],
+    "vocabulary": [
+      {
+        "word": "亞情",
+        "hanvi": "Á TÌNH",
+        "meaning": ""
+      },
+      {
+        "word": "情意",
+        "hanvi": "TÌNH Ý",
+        "meaning": ""
+      },
+      {
+        "word": "幽情",
+        "hanvi": "U TÌNH",
+        "meaning": ""
+      },
+      {
+        "word": "哀情",
+        "hanvi": "AI TÌNH",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "像",
+    "rank": 128,
+    "hanvi": "TƯỢNG",
+    "meaning": [
+      "hình dáng",
+      "giống như"
+    ],
+    "vocabulary": [
+      {
+        "word": "幻像",
+        "hanvi": "ẢO TƯỢNG",
+        "meaning": ""
+      },
+      {
+        "word": "印像",
+        "hanvi": "ẤN TƯỢNG",
+        "meaning": ""
+      },
+      {
+        "word": "遺像",
+        "hanvi": "DI TƯỢNG",
+        "meaning": ""
+      },
+      {
+        "word": "圖像",
+        "hanvi": "ĐỒ TƯỢNG",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "怎",
+    "rank": 129,
+    "hanvi": "CHẨM",
+    "meaning": [
+      "nào, thế nào (trợ từ)"
+    ],
+    "vocabulary": [
+      {
+        "word": "怎么",
+        "hanvi": "CHẨM MA",
+        "meaning": ""
+      },
+      {
+        "word": "怎麼",
+        "hanvi": "CHẨM MA",
+        "meaning": ""
+      },
+      {
+        "word": "怎樣",
+        "hanvi": "CHẨM DẠNG",
+        "meaning": ""
+      },
+      {
+        "word": "怎生",
+        "hanvi": "CHẨM SANH",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "真",
+    "rank": 130,
+    "hanvi": "CHÂN",
+    "meaning": [
+      "thật, thực",
+      "người tu hành"
+    ],
+    "vocabulary": [
+      {
+        "word": "真皮",
+        "hanvi": "CHÂN BÌ",
+        "meaning": ""
+      },
+      {
+        "word": "真諦",
+        "hanvi": "CHÂN ĐẾ",
+        "meaning": ""
+      },
+      {
+        "word": "真理",
+        "hanvi": "CHÂN LÍ",
+        "meaning": ""
+      },
+      {
+        "word": "真理",
+        "hanvi": "CHÂN LÝ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "边",
+    "rank": 131,
+    "hanvi": "BIÊN",
+    "meaning": [
+      "bên, phía",
+      "bờ, rịa, ven, mép, vệ, viền, cạnh",
+      "biên giới"
+    ],
+    "vocabulary": [
+      {
+        "word": "左边",
+        "hanvi": "TẢ BIÊN",
+        "meaning": ""
+      },
+      {
+        "word": "边戍",
+        "hanvi": "BIÊN THÚ",
+        "meaning": ""
+      },
+      {
+        "word": "后边",
+        "hanvi": "HẬU BIÊN",
+        "meaning": ""
+      },
+      {
+        "word": "右边",
+        "hanvi": "HỮU BIÊN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "感",
+    "rank": 132,
+    "hanvi": "CẢM",
+    "meaning": [
+      "cảm thấy",
+      "cảm động",
+      "tình cảm"
+    ],
+    "vocabulary": [
+      {
+        "word": "惡感",
+        "hanvi": "ÁC CẢM",
+        "meaning": ""
+      },
+      {
+        "word": "哀感",
+        "hanvi": "AI CẢM",
+        "meaning": ""
+      },
+      {
+        "word": "安感",
+        "hanvi": "AN CẢM",
+        "meaning": ""
+      },
+      {
+        "word": "悲感",
+        "hanvi": "BI CẢM",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "权",
+    "rank": 133,
+    "hanvi": "QUYỀN",
+    "meaning": [
+      "quả cân",
+      "quyền lợi"
+    ],
+    "vocabulary": [
+      {
+        "word": "权威",
+        "hanvi": "QUYỀN UY",
+        "meaning": ""
+      },
+      {
+        "word": "大权",
+        "hanvi": "ĐẠI QUYỀN",
+        "meaning": ""
+      },
+      {
+        "word": "弃权",
+        "hanvi": "KHÍ QUYỀN",
+        "meaning": ""
+      },
+      {
+        "word": "权力",
+        "hanvi": "QUYỀN LỰC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "些",
+    "rank": 134,
+    "hanvi": "TA",
+    "meaning": [
+      "ít ỏi"
+    ],
+    "vocabulary": [
+      {
+        "word": "某些",
+        "hanvi": "MỖ TA",
+        "meaning": ""
+      },
+      {
+        "word": "些些",
+        "hanvi": "TA TA",
+        "meaning": ""
+      },
+      {
+        "word": "些須",
+        "hanvi": "TA TU",
+        "meaning": ""
+      },
+      {
+        "word": "些微",
+        "hanvi": "TA VI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "妈",
+    "rank": 135,
+    "hanvi": "MA",
+    "meaning": [
+      "mẹ đẻ",
+      "chỉ người phụ nữ đứng tuổi hoặc chị em của cha mẹ",
+      "vú già"
+    ],
+    "vocabulary": [
+      {
+        "word": "姨妈",
+        "hanvi": "DI MA",
+        "meaning": ""
+      },
+      {
+        "word": "妈妈",
+        "hanvi": "MA MA",
+        "meaning": ""
+      },
+      {
+        "word": "妈咪",
+        "hanvi": "MA MỄ",
+        "meaning": ""
+      },
+      {
+        "word": "奶妈",
+        "hanvi": "NÃI MA",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "实",
+    "rank": 136,
+    "hanvi": "THỰC",
+    "meaning": [
+      "thật, thực, đúng",
+      "thật thà"
+    ],
+    "vocabulary": [
+      {
+        "word": "其实",
+        "hanvi": "KỲ THỰC",
+        "meaning": ""
+      },
+      {
+        "word": "事实",
+        "hanvi": "SỰ THỰC",
+        "meaning": ""
+      },
+      {
+        "word": "实际",
+        "hanvi": "THỰC TẾ",
+        "meaning": ""
+      },
+      {
+        "word": "实際",
+        "hanvi": "THỰC TẾ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "品",
+    "rank": 137,
+    "hanvi": "PHẨM",
+    "meaning": [
+      "đồ vật",
+      "chủng loại",
+      "phẩm hàm, hạng quan, hạng, cấp"
+    ],
+    "vocabulary": [
+      {
+        "word": "音品",
+        "hanvi": "ÂM PHẨM",
+        "meaning": ""
+      },
+      {
+        "word": "品笫",
+        "hanvi": "PHẨM ĐỆ",
+        "meaning": ""
+      },
+      {
+        "word": "品題",
+        "hanvi": "PHẨM ĐỀ",
+        "meaning": ""
+      },
+      {
+        "word": "品位",
+        "hanvi": "PHẨM VỊ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "取",
+    "rank": 138,
+    "hanvi": "THỦ",
+    "meaning": [
+      "lấy"
+    ],
+    "vocabulary": [
+      {
+        "word": "取締",
+        "hanvi": "THỦ ĐẾ",
+        "meaning": ""
+      },
+      {
+        "word": "取下",
+        "hanvi": "THỦ HẠ",
+        "meaning": ""
+      },
+      {
+        "word": "吸取",
+        "hanvi": "HẤP THỦ",
+        "meaning": ""
+      },
+      {
+        "word": "畱取",
+        "hanvi": "LƯU THỦ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "起",
+    "rank": 139,
+    "hanvi": "KHỞI",
+    "meaning": [
+      "bắt đầu",
+      "đứng dậy"
+    ],
+    "vocabulary": [
+      {
+        "word": "起居",
+        "hanvi": "KHỞI CƯ",
+        "meaning": ""
+      },
+      {
+        "word": "起事",
+        "hanvi": "KHỞI SỰ",
+        "meaning": ""
+      },
+      {
+        "word": "起訴",
+        "hanvi": "KHỞI TỐ",
+        "meaning": ""
+      },
+      {
+        "word": "抬起",
+        "hanvi": "SĨ KHỞI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "直",
+    "rank": 140,
+    "hanvi": "TRỰC",
+    "meaning": [
+      "thẳng"
+    ],
+    "vocabulary": [
+      {
+        "word": "甪直",
+        "hanvi": "LỘ TRỰC",
+        "meaning": ""
+      },
+      {
+        "word": "直播",
+        "hanvi": "TRỰC BÁ",
+        "meaning": ""
+      },
+      {
+        "word": "直系",
+        "hanvi": "TRỰC HỆ",
+        "meaning": ""
+      },
+      {
+        "word": "儤直",
+        "hanvi": "BẠO TRỰC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "问",
+    "rank": 141,
+    "hanvi": "VẤN",
+    "meaning": [
+      "hỏi",
+      "tra xét",
+      "hỏi thăm"
+    ],
+    "vocabulary": [
+      {
+        "word": "慰问",
+        "hanvi": "UÝ VẤN",
+        "meaning": ""
+      },
+      {
+        "word": "问题",
+        "hanvi": "VẤN ĐỀ",
+        "meaning": ""
+      },
+      {
+        "word": "不问",
+        "hanvi": "BẤT VẤN",
+        "meaning": ""
+      },
+      {
+        "word": "学问",
+        "hanvi": "HỌC VẤN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "多",
+    "rank": 142,
+    "hanvi": "ĐA",
+    "meaning": [
+      "nhiều"
+    ],
+    "vocabulary": [
+      {
+        "word": "多故",
+        "hanvi": "ĐA CỐ",
+        "meaning": ""
+      },
+      {
+        "word": "多餘",
+        "hanvi": "ĐA DƯ",
+        "meaning": ""
+      },
+      {
+        "word": "多馀",
+        "hanvi": "ĐA DƯ",
+        "meaning": ""
+      },
+      {
+        "word": "多麼",
+        "hanvi": "ĐA MA",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "吧",
+    "rank": 143,
+    "hanvi": "BA",
+    "meaning": [
+      "cách, cạch, rắc (các tiếng động nhỏ)",
+      "hút vào, hít vào",
+      "(thán từ)"
+    ],
+    "vocabulary": [
+      {
+        "word": "吧吧",
+        "hanvi": "BA BA",
+        "meaning": ""
+      },
+      {
+        "word": "吧女",
+        "hanvi": "BA NỮ",
+        "meaning": ""
+      },
+      {
+        "word": "吧呀",
+        "hanvi": "BA NHA",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "视",
+    "rank": 144,
+    "hanvi": "THỊ",
+    "meaning": [
+      "nhìn kỹ"
+    ],
+    "vocabulary": [
+      {
+        "word": "鄙视",
+        "hanvi": "BỈ THỊ",
+        "meaning": ""
+      },
+      {
+        "word": "歧视",
+        "hanvi": "KỲ THỊ",
+        "meaning": ""
+      },
+      {
+        "word": "忽视",
+        "hanvi": "HỐT THỊ",
+        "meaning": ""
+      },
+      {
+        "word": "俯视",
+        "hanvi": "PHỦ THỊ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "在",
+    "rank": 145,
+    "hanvi": "TẠI",
+    "meaning": [
+      "ở, tại"
+    ],
+    "vocabulary": [
+      {
+        "word": "在意",
+        "hanvi": "TẠI Ý",
+        "meaning": ""
+      },
+      {
+        "word": "安在",
+        "hanvi": "AN TẠI",
+        "meaning": ""
+      },
+      {
+        "word": "所在",
+        "hanvi": "SỞ TẠI",
+        "meaning": ""
+      },
+      {
+        "word": "在野",
+        "hanvi": "TẠI DÃ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "报",
+    "rank": 146,
+    "hanvi": "BÁO",
+    "meaning": [
+      "báo cáo, báo tin, thông báo",
+      "trả lời",
+      "báo đáp, đền ơn"
+    ],
+    "vocabulary": [
+      {
+        "word": "报恩",
+        "hanvi": "BÁO ÂN",
+        "meaning": ""
+      },
+      {
+        "word": "报喜",
+        "hanvi": "BÁO HỈ",
+        "meaning": ""
+      },
+      {
+        "word": "报社",
+        "hanvi": "BÁO XÃ",
+        "meaning": ""
+      },
+      {
+        "word": "预报",
+        "hanvi": "DỰ BÁO",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "无",
+    "rank": 147,
+    "hanvi": "VÔ",
+    "meaning": [
+      "không có"
+    ],
+    "vocabulary": [
+      {
+        "word": "无为",
+        "hanvi": "VÔ VI",
+        "meaning": ""
+      },
+      {
+        "word": "无赖",
+        "hanvi": "VÔ LẠI",
+        "meaning": ""
+      },
+      {
+        "word": "别无",
+        "hanvi": "BIỆT VÔ",
+        "meaning": ""
+      },
+      {
+        "word": "无聊",
+        "hanvi": "VÔ LIÊU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "门",
+    "rank": 148,
+    "hanvi": "MÔN",
+    "meaning": [
+      "cái cửa",
+      "loài, loại, thứ, môn"
+    ],
+    "vocabulary": [
+      {
+        "word": "阿门",
+        "hanvi": "A MÔN",
+        "meaning": ""
+      },
+      {
+        "word": "部门",
+        "hanvi": "BỘ MÔN",
+        "meaning": ""
+      },
+      {
+        "word": "沙门",
+        "hanvi": "SA MÔN",
+        "meaning": ""
+      },
+      {
+        "word": "大门",
+        "hanvi": "ĐẠI MÔN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "让",
+    "rank": 149,
+    "hanvi": "NHƯỢNG",
+    "meaning": [
+      "thua kém",
+      "nhường",
+      "mời"
+    ],
+    "vocabulary": [
+      {
+        "word": "让步",
+        "hanvi": "NHƯỢNG BỘ",
+        "meaning": ""
+      },
+      {
+        "word": "忍让",
+        "hanvi": "NHẪN NHƯỢNG",
+        "meaning": ""
+      },
+      {
+        "word": "避让",
+        "hanvi": "TỊ NHƯỢNG",
+        "meaning": ""
+      },
+      {
+        "word": "转让",
+        "hanvi": "CHUYỂN NHƯỢNG",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "老",
+    "rank": 150,
+    "hanvi": "LÃO",
+    "meaning": [
+      "già, nhiều tuổi"
+    ],
+    "vocabulary": [
+      {
+        "word": "古老",
+        "hanvi": "CỔ LÃO",
+        "meaning": ""
+      },
+      {
+        "word": "孤老",
+        "hanvi": "CÔ LÃO",
+        "meaning": ""
+      },
+      {
+        "word": "故老",
+        "hanvi": "CỐ LÃO",
+        "meaning": ""
+      },
+      {
+        "word": "野老",
+        "hanvi": "DÃ LÃO",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "变",
+    "rank": 151,
+    "hanvi": "BIẾN",
+    "meaning": [
+      "thay đổi, biến đổi",
+      "trờ thành, biến thành",
+      "bán lấy tiền"
+    ],
+    "vocabulary": [
+      {
+        "word": "变数",
+        "hanvi": "BIẾN SỐ",
+        "meaning": ""
+      },
+      {
+        "word": "多变",
+        "hanvi": "ĐA BIẾN",
+        "meaning": ""
+      },
+      {
+        "word": "不变",
+        "hanvi": "BẤT BIẾN",
+        "meaning": ""
+      },
+      {
+        "word": "变化",
+        "hanvi": "BIẾN HOÁ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "打",
+    "rank": 152,
+    "hanvi": "ĐẢ",
+    "meaning": [
+      "đánh, đập"
+    ],
+    "vocabulary": [
+      {
+        "word": "挨打",
+        "hanvi": "AI ĐẢ",
+        "meaning": ""
+      },
+      {
+        "word": "敺打",
+        "hanvi": "ẨU ĐẢ",
+        "meaning": ""
+      },
+      {
+        "word": "殴打",
+        "hanvi": "ẨU ĐẢ",
+        "meaning": ""
+      },
+      {
+        "word": "毆打",
+        "hanvi": "ẨU ĐẢ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "动",
+    "rank": 153,
+    "hanvi": "ĐỘNG",
+    "meaning": [
+      "động đậy, cử động, hoạt động"
+    ],
+    "vocabulary": [
+      {
+        "word": "被动",
+        "hanvi": "BỊ ĐỘNG",
+        "meaning": ""
+      },
+      {
+        "word": "鼓动",
+        "hanvi": "CỔ ĐỘNG",
+        "meaning": ""
+      },
+      {
+        "word": "机动",
+        "hanvi": "CƠ ĐỘNG",
+        "meaning": ""
+      },
+      {
+        "word": "举动",
+        "hanvi": "CỬ ĐỘNG",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "次",
+    "rank": 154,
+    "hanvi": "THỨ",
+    "meaning": [
+      "sau (không phải đầu tiên), tiếp theo",
+      "thứ bậc, lần, lượt"
+    ],
+    "vocabulary": [
+      {
+        "word": "依次",
+        "hanvi": "Y THỨ",
+        "meaning": ""
+      },
+      {
+        "word": "挨次",
+        "hanvi": "AI THỨ",
+        "meaning": ""
+      },
+      {
+        "word": "多次",
+        "hanvi": "ĐA THỨ",
+        "meaning": ""
+      },
+      {
+        "word": "几次",
+        "hanvi": "KỶ THỨ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "增",
+    "rank": 155,
+    "hanvi": "TĂNG",
+    "meaning": [
+      "tăng thêm lên"
+    ],
+    "vocabulary": [
+      {
+        "word": "增補",
+        "hanvi": "TĂNG BỔ",
+        "meaning": ""
+      },
+      {
+        "word": "增多",
+        "hanvi": "TĂNG ĐA",
+        "meaning": ""
+      },
+      {
+        "word": "加增",
+        "hanvi": "GIA TĂNG",
+        "meaning": ""
+      },
+      {
+        "word": "增高",
+        "hanvi": "TĂNG CAO",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "江",
+    "rank": 156,
+    "hanvi": "GIANG",
+    "meaning": [
+      "sông lớn"
+    ],
+    "vocabulary": [
+      {
+        "word": "沱江",
+        "hanvi": "ĐÀ GIANG",
+        "meaning": ""
+      },
+      {
+        "word": "江河",
+        "hanvi": "GIANG HÀ",
+        "meaning": ""
+      },
+      {
+        "word": "江湖",
+        "hanvi": "GIANG HỒ",
+        "meaning": ""
+      },
+      {
+        "word": "江蓠",
+        "hanvi": "GIANG LY",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "但",
+    "rank": 157,
+    "hanvi": "ĐÃN",
+    "meaning": [
+      "chỉ",
+      "song, những, nhưng mà",
+      "hễ, nếu như"
+    ],
+    "vocabulary": [
+      {
+        "word": "不但",
+        "hanvi": "BẤT ĐÃN",
+        "meaning": ""
+      },
+      {
+        "word": "但是",
+        "hanvi": "ĐÃN THỊ",
+        "meaning": ""
+      },
+      {
+        "word": "但凡",
+        "hanvi": "ĐÃN PHÀM",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "十",
+    "rank": 158,
+    "hanvi": "THẬP",
+    "meaning": [
+      "mười, 10",
+      "đủ hết"
+    ],
+    "vocabulary": [
+      {
+        "word": "十惡",
+        "hanvi": "THẬP ÁC",
+        "meaning": ""
+      },
+      {
+        "word": "四十",
+        "hanvi": "TỨ THẬP",
+        "meaning": ""
+      },
+      {
+        "word": "八十",
+        "hanvi": "BÁT THẬP",
+        "meaning": ""
+      },
+      {
+        "word": "九十",
+        "hanvi": "CỬU THẬP",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "死",
+    "rank": 159,
+    "hanvi": "TỬ",
+    "meaning": [
+      "chết"
+    ],
+    "vocabulary": [
+      {
+        "word": "縊死",
+        "hanvi": "ẢI TỬ",
+        "meaning": ""
+      },
+      {
+        "word": "瘐死",
+        "hanvi": "DŨ TỬ",
+        "meaning": ""
+      },
+      {
+        "word": "打死",
+        "hanvi": "ĐẢ TỬ",
+        "meaning": ""
+      },
+      {
+        "word": "事死",
+        "hanvi": "SỰ TỬ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "显",
+    "rank": 160,
+    "hanvi": "HIỂN",
+    "meaning": [
+      "rõ rệt",
+      "vẻ vang"
+    ],
+    "vocabulary": [
+      {
+        "word": "显赫",
+        "hanvi": "HIỂN HÁCH",
+        "meaning": ""
+      },
+      {
+        "word": "明显",
+        "hanvi": "MINH HIỂN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "听",
+    "rank": 161,
+    "hanvi": "THÍNH",
+    "meaning": [
+      "nghe"
+    ],
+    "vocabulary": [
+      {
+        "word": "打听",
+        "hanvi": "ĐẢ THÍNH",
+        "meaning": ""
+      },
+      {
+        "word": "收听",
+        "hanvi": "THU THÍNH",
+        "meaning": ""
+      },
+      {
+        "word": "倾听",
+        "hanvi": "KHUYNH THÍNH",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "友",
+    "rank": 162,
+    "hanvi": "HỮU",
+    "meaning": [
+      "bạn bè"
+    ],
+    "vocabulary": [
+      {
+        "word": "愛友",
+        "hanvi": "ÁI HỮU",
+        "meaning": ""
+      },
+      {
+        "word": "故友",
+        "hanvi": "CỐ HỮU",
+        "meaning": ""
+      },
+      {
+        "word": "友愛",
+        "hanvi": "HỮU ÁI",
+        "meaning": ""
+      },
+      {
+        "word": "友弟",
+        "hanvi": "HỮU ĐỆ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "白",
+    "rank": 163,
+    "hanvi": "BẠCH",
+    "meaning": [
+      "trắng, màu trắng",
+      "bạc (tóc)",
+      "sạch sẽ"
+    ],
+    "vocabulary": [
+      {
+        "word": "白衣",
+        "hanvi": "BẠCH Y",
+        "meaning": ""
+      },
+      {
+        "word": "白布",
+        "hanvi": "BẠCH BỐ",
+        "meaning": ""
+      },
+      {
+        "word": "白打",
+        "hanvi": "BẠCH ĐẢ",
+        "meaning": ""
+      },
+      {
+        "word": "白徒",
+        "hanvi": "BẠCH ĐỒ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "空",
+    "rank": 164,
+    "hanvi": "KHÔNG",
+    "meaning": [
+      "trống rỗng",
+      "không gian"
+    ],
+    "vocabulary": [
+      {
+        "word": "虛空",
+        "hanvi": "HƯ KHÔNG",
+        "meaning": ""
+      },
+      {
+        "word": "空暇",
+        "hanvi": "KHÔNG HẠ",
+        "meaning": ""
+      },
+      {
+        "word": "空虚",
+        "hanvi": "KHÔNG HƯ",
+        "meaning": ""
+      },
+      {
+        "word": "制空",
+        "hanvi": "CHẾ KHÔNG",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "周",
+    "rank": 165,
+    "hanvi": "CHU",
+    "meaning": [
+      "vòng quanh",
+      "đời nhà Chu"
+    ],
+    "vocabulary": [
+      {
+        "word": "伊周",
+        "hanvi": "Y CHU",
+        "meaning": ""
+      },
+      {
+        "word": "周游",
+        "hanvi": "CHU DU",
+        "meaning": ""
+      },
+      {
+        "word": "周遊",
+        "hanvi": "CHU DU",
+        "meaning": ""
+      },
+      {
+        "word": "周期",
+        "hanvi": "CHU KÌ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "吃",
+    "rank": 166,
+    "hanvi": "CẬT",
+    "meaning": [
+      "nói lắp",
+      "ăn uống"
+    ],
+    "vocabulary": [
+      {
+        "word": "吃吃",
+        "hanvi": "CẬT CẬT",
+        "meaning": ""
+      },
+      {
+        "word": "吃茶",
+        "hanvi": "CẬT TRÀ",
+        "meaning": ""
+      },
+      {
+        "word": "吃驚",
+        "hanvi": "CẬT KINH",
+        "meaning": ""
+      },
+      {
+        "word": "吃水",
+        "hanvi": "CẬT THUỶ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "经",
+    "rank": 167,
+    "hanvi": "KINH",
+    "meaning": [
+      "dây vải",
+      "kinh sách",
+      "trải qua, chịu đựng"
+    ],
+    "vocabulary": [
+      {
+        "word": "已经",
+        "hanvi": "DĨ KINH",
+        "meaning": ""
+      },
+      {
+        "word": "经济",
+        "hanvi": "KINH TẾ",
+        "meaning": ""
+      },
+      {
+        "word": "经费",
+        "hanvi": "KINH PHÍ",
+        "meaning": ""
+      },
+      {
+        "word": "经营",
+        "hanvi": "KINH DOANH",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "再",
+    "rank": 168,
+    "hanvi": "TÁI",
+    "meaning": [
+      "lại, lần nữa",
+      "làm lại"
+    ],
+    "vocabulary": [
+      {
+        "word": "再舉",
+        "hanvi": "TÁI CỬ",
+        "meaning": ""
+      },
+      {
+        "word": "再也",
+        "hanvi": "TÁI DÃ",
+        "meaning": ""
+      },
+      {
+        "word": "再度",
+        "hanvi": "TÁI ĐỘ",
+        "meaning": ""
+      },
+      {
+        "word": "不再",
+        "hanvi": "BẤT TÁI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "论",
+    "rank": 169,
+    "hanvi": "LUẬN",
+    "meaning": [
+      "bàn bạc"
+    ],
+    "vocabulary": [
+      {
+        "word": "舆论",
+        "hanvi": "DƯ LUẬN",
+        "meaning": ""
+      },
+      {
+        "word": "理论",
+        "hanvi": "LÝ LUẬN",
+        "meaning": ""
+      },
+      {
+        "word": "不论",
+        "hanvi": "BẤT LUẬN",
+        "meaning": ""
+      },
+      {
+        "word": "推论",
+        "hanvi": "SUY LUẬN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "进",
+    "rank": 170,
+    "hanvi": "TIẾN",
+    "meaning": [
+      "đi lên, tiến lên"
+    ],
+    "vocabulary": [
+      {
+        "word": "进士",
+        "hanvi": "TIẾN SĨ",
+        "meaning": ""
+      },
+      {
+        "word": "改进",
+        "hanvi": "CẢI TIẾN",
+        "meaning": ""
+      },
+      {
+        "word": "渐进",
+        "hanvi": "TIỆM TIẾN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "几",
+    "rank": 171,
+    "hanvi": "KÌ",
+    "meaning": [
+      "§ Giản thể của chữ 幾"
+    ],
+    "vocabulary": []
+  },
+  {
+    "char": "最",
+    "rank": 172,
+    "hanvi": "TỐI",
+    "meaning": [
+      "cực kỳ, hơn nhất, chót"
+    ],
+    "vocabulary": [
+      {
+        "word": "最古",
+        "hanvi": "TỐI CỔ",
+        "meaning": ""
+      },
+      {
+        "word": "最多",
+        "hanvi": "TỐI ĐA",
+        "meaning": ""
+      },
+      {
+        "word": "最低",
+        "hanvi": "TỐI ĐÊ",
+        "meaning": ""
+      },
+      {
+        "word": "最初",
+        "hanvi": "TỐI SƠ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "音",
+    "rank": 173,
+    "hanvi": "ÂM",
+    "meaning": [
+      "âm, tiếng"
+    ],
+    "vocabulary": [
+      {
+        "word": "音波",
+        "hanvi": "ÂM BA",
+        "meaning": ""
+      },
+      {
+        "word": "音素",
+        "hanvi": "ÂM TỐ",
+        "meaning": ""
+      },
+      {
+        "word": "播音",
+        "hanvi": "BÁ ÂM",
+        "meaning": ""
+      },
+      {
+        "word": "餘音",
+        "hanvi": "DƯ ÂM",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "谢",
+    "rank": 174,
+    "hanvi": "TẠ",
+    "meaning": [
+      "cảm tạ, cảm ơn",
+      "nhận lỗi, xin lỗi, tạ lỗi",
+      "rụng, tàn, rã"
+    ],
+    "vocabulary": [
+      {
+        "word": "感谢",
+        "hanvi": "CẢM TẠ",
+        "meaning": ""
+      },
+      {
+        "word": "凋谢",
+        "hanvi": "ĐIÊU TẠ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "刚",
+    "rank": 175,
+    "hanvi": "CƯƠNG",
+    "meaning": [
+      "cứng, rắn",
+      "vừa mới qua, vừa xong"
+    ],
+    "vocabulary": [
+      {
+        "word": "刚好",
+        "hanvi": "CƯƠNG HẢO",
+        "meaning": ""
+      },
+      {
+        "word": "刚毛",
+        "hanvi": "CƯƠNG MAO",
+        "meaning": ""
+      },
+      {
+        "word": "刚果",
+        "hanvi": "CƯƠNG QUẢ",
+        "meaning": ""
+      },
+      {
+        "word": "刚才",
+        "hanvi": "CƯƠNG TÀI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "明",
+    "rank": 176,
+    "hanvi": "MINH",
+    "meaning": [
+      "sáng",
+      "đời nhà Minh (Trung Quốc)"
+    ],
+    "vocabulary": [
+      {
+        "word": "幽明",
+        "hanvi": "U MINH",
+        "meaning": ""
+      },
+      {
+        "word": "黎明",
+        "hanvi": "LÊ MINH",
+        "meaning": ""
+      },
+      {
+        "word": "薄明",
+        "hanvi": "BẠC MINH",
+        "meaning": ""
+      },
+      {
+        "word": "褒明",
+        "hanvi": "BAO MINH",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "冷",
+    "rank": 177,
+    "hanvi": "LÃNH",
+    "meaning": [
+      "lạnh lẽo",
+      "lặng lẽ"
+    ],
+    "vocabulary": [
+      {
+        "word": "齒冷",
+        "hanvi": "XỈ LÃNH",
+        "meaning": ""
+      },
+      {
+        "word": "寒冷",
+        "hanvi": "HÀN LÃNH",
+        "meaning": ""
+      },
+      {
+        "word": "冷淡",
+        "hanvi": "LÃNH ĐẠM",
+        "meaning": ""
+      },
+      {
+        "word": "冷氣",
+        "hanvi": "LÃNH KHÍ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "分",
+    "rank": 178,
+    "hanvi": "PHÂN",
+    "meaning": [
+      "phân chia"
+    ],
+    "vocabulary": [
+      {
+        "word": "部分",
+        "hanvi": "BỘ PHÂN",
+        "meaning": ""
+      },
+      {
+        "word": "夜分",
+        "hanvi": "DẠ PHÂN",
+        "meaning": ""
+      },
+      {
+        "word": "多分",
+        "hanvi": "ĐA PHÂN",
+        "meaning": ""
+      },
+      {
+        "word": "分陰",
+        "hanvi": "PHÂN ÂM",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "女",
+    "rank": 179,
+    "hanvi": "NỮ",
+    "meaning": [
+      "đàn bà, con gái"
+    ],
+    "vocabulary": [
+      {
+        "word": "愛女",
+        "hanvi": "ÁI NỮ",
+        "meaning": ""
+      },
+      {
+        "word": "縊女",
+        "hanvi": "ẢI NỮ",
+        "meaning": ""
+      },
+      {
+        "word": "幼女",
+        "hanvi": "ẤU NỮ",
+        "meaning": ""
+      },
+      {
+        "word": "吧女",
+        "hanvi": "BA NỮ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "运",
+    "rank": 180,
+    "hanvi": "VẬN",
+    "meaning": [
+      "sự may mắn, vận may",
+      "sự chuyên trở"
+    ],
+    "vocabulary": [
+      {
+        "word": "搬运",
+        "hanvi": "BÀN VẬN",
+        "meaning": ""
+      },
+      {
+        "word": "好运",
+        "hanvi": "HẢO VẬN",
+        "meaning": ""
+      },
+      {
+        "word": "运载",
+        "hanvi": "VẬN TẢI",
+        "meaning": ""
+      },
+      {
+        "word": "幸运",
+        "hanvi": "HẠNH VẬN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "微",
+    "rank": 181,
+    "hanvi": "VI",
+    "meaning": [
+      "(Động) Trốn, giấu, ẩn tàng.◇Tả truyện 左傳:白公奔山而縊, 其徒微之Bạch Công bôn san nhi ải, kì đồ vi chi(Ai Công thập lục niên 哀公十六年) Bạch Công chạy tới núi tự ải, đồ đệ của ông đi trốn",
+      "(Động) Không có.◇Luận Ngữ 論語:微管仲吾其彼髮左衽矣Vi Quản Trọng ngô kì bỉ phát tả nhẫm hĩ(Hiến vấn 憲問) Nếu không có ông Quản Trọng, ta tất bị búi tóc mặc áo trái vạt vậy (như người Di 夷, Địch 狄).§ Ý nói Quản Trọng đã có công chống với Di, Địch",
+      "(Động) Chẳng phải.◇Thi Kinh 詩經:微我無酒Vi ngã vô tửu(Bội phong 邶風, Bách chu 柏舟) Chẳng phải là em không có rượu"
+    ],
+    "vocabulary": [
+      {
+        "word": "隱微",
+        "hanvi": "ẨN VI",
+        "meaning": ""
+      },
+      {
+        "word": "些微",
+        "hanvi": "TA VI",
+        "meaning": ""
+      },
+      {
+        "word": "細微",
+        "hanvi": "TẾ VI",
+        "meaning": ""
+      },
+      {
+        "word": "细微",
+        "hanvi": "TẾ VI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "却",
+    "rank": 182,
+    "hanvi": "KHƯỚC",
+    "meaning": [
+      "lùi bước",
+      "từ chối",
+      "mất đi"
+    ],
+    "vocabulary": [
+      {
+        "word": "忘却",
+        "hanvi": "VONG KHƯỚC",
+        "meaning": ""
+      },
+      {
+        "word": "退却",
+        "hanvi": "THOÁI KHƯỚC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "候",
+    "rank": 183,
+    "hanvi": "HẬU",
+    "meaning": [
+      "thời gian",
+      "tình hình, tình trạng",
+      "khí hậu"
+    ],
+    "vocabulary": [
+      {
+        "word": "候補",
+        "hanvi": "HẬU BỔ",
+        "meaning": ""
+      },
+      {
+        "word": "伺候",
+        "hanvi": "TỨ HẬU",
+        "meaning": ""
+      },
+      {
+        "word": "气候",
+        "hanvi": "KHÍ HẬU",
+        "meaning": ""
+      },
+      {
+        "word": "氣候",
+        "hanvi": "KHÍ HẬU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "喜",
+    "rank": 184,
+    "hanvi": "HỈ",
+    "meaning": [
+      "(Danh) Việc tốt lành, việc vui mừng.◎Như:報喜báo hỉbáo tin mừng (cưới hỏi, sanh con)",
+      "(Danh) Họ “Hỉ”",
+      "(Tính) Vui, mừng.◎Như:歡喜hoan hỉvui mừng喜事hỉ sựviệc vui mừng.◇Phạm Trọng Yêm 范仲淹:不以物喜, 不以己悲Bất dĩ vật hỉ, bất dĩ kỉ bi(Nhạc Dương Lâu kí 岳陽樓記) Không vì ngoại vật mà vui, không vì bản thân mà buồn"
+    ],
+    "vocabulary": [
+      {
+        "word": "喜愛",
+        "hanvi": "HỈ ÁI",
+        "meaning": ""
+      },
+      {
+        "word": "喜爱",
+        "hanvi": "HỈ ÁI",
+        "meaning": ""
+      },
+      {
+        "word": "喜事",
+        "hanvi": "HỈ SỰ",
+        "meaning": ""
+      },
+      {
+        "word": "報喜",
+        "hanvi": "BÁO HỈ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "晚",
+    "rank": 185,
+    "hanvi": "VÃN",
+    "meaning": [
+      "buổi chiều"
+    ],
+    "vocabulary": [
+      {
+        "word": "夜晚",
+        "hanvi": "DẠ VÃN",
+        "meaning": ""
+      },
+      {
+        "word": "晚路",
+        "hanvi": "VÃN LỘ",
+        "meaning": ""
+      },
+      {
+        "word": "晚暮",
+        "hanvi": "VÃN MỘ",
+        "meaning": ""
+      },
+      {
+        "word": "今晚",
+        "hanvi": "KIM VÃN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "所",
+    "rank": 186,
+    "hanvi": "SỞ",
+    "meaning": [
+      "nơi, chỗ",
+      "viện, sở, đồn"
+    ],
+    "vocabulary": [
+      {
+        "word": "居所",
+        "hanvi": "CƯ SỞ",
+        "meaning": ""
+      },
+      {
+        "word": "所以",
+        "hanvi": "SỞ DĨ",
+        "meaning": ""
+      },
+      {
+        "word": "所祈",
+        "hanvi": "SỞ KÌ",
+        "meaning": ""
+      },
+      {
+        "word": "所為",
+        "hanvi": "SỞ VI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "而",
+    "rank": 187,
+    "hanvi": "NHI",
+    "meaning": [
+      "xe tang, xe đưa đám"
+    ],
+    "vocabulary": [
+      {
+        "word": "意而",
+        "hanvi": "Ý NHI",
+        "meaning": ""
+      },
+      {
+        "word": "已而",
+        "hanvi": "DĨ NHI",
+        "meaning": ""
+      },
+      {
+        "word": "之而",
+        "hanvi": "CHI NHI",
+        "meaning": ""
+      },
+      {
+        "word": "而且",
+        "hanvi": "NHI THẢ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "长",
+    "rank": 188,
+    "hanvi": "TRƯỞNG",
+    "meaning": [
+      "to, lớn",
+      "đứng đầu"
+    ],
+    "vocabulary": [
+      {
+        "word": "酋长",
+        "hanvi": "TÙ TRƯỞNG",
+        "meaning": ""
+      },
+      {
+        "word": "家长",
+        "hanvi": "GIA TRƯỞNG",
+        "meaning": ""
+      },
+      {
+        "word": "会长",
+        "hanvi": "HỘI TRƯỞNG",
+        "meaning": ""
+      },
+      {
+        "word": "巿长",
+        "hanvi": "THỊ TRƯỞNG",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "才",
+    "rank": 189,
+    "hanvi": "TÀI",
+    "meaning": [
+      "mới, vừa mới"
+    ],
+    "vocabulary": [
+      {
+        "word": "愛才",
+        "hanvi": "ÁI TÀI",
+        "meaning": ""
+      },
+      {
+        "word": "異才",
+        "hanvi": "DỊ TÀI",
+        "meaning": ""
+      },
+      {
+        "word": "多才",
+        "hanvi": "ĐA TÀI",
+        "meaning": ""
+      },
+      {
+        "word": "奇才",
+        "hanvi": "KÌ TÀI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "成",
+    "rank": 190,
+    "hanvi": "THÀNH",
+    "meaning": [
+      "làm xong, hoàn thành"
+    ],
+    "vocabulary": [
+      {
+        "word": "成为",
+        "hanvi": "THÀNH VI",
+        "meaning": ""
+      },
+      {
+        "word": "成為",
+        "hanvi": "THÀNH VI",
+        "meaning": ""
+      },
+      {
+        "word": "未成",
+        "hanvi": "VỊ THÀNH",
+        "meaning": ""
+      },
+      {
+        "word": "不成",
+        "hanvi": "BẤT THÀNH",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "且",
+    "rank": 191,
+    "hanvi": "THẢ",
+    "meaning": [
+      "vừa",
+      "cứ"
+    ],
+    "vocabulary": [
+      {
+        "word": "猼且",
+        "hanvi": "BÁC THẢ",
+        "meaning": ""
+      },
+      {
+        "word": "苟且",
+        "hanvi": "CẨU THẢ",
+        "meaning": ""
+      },
+      {
+        "word": "而且",
+        "hanvi": "NHI THẢ",
+        "meaning": ""
+      },
+      {
+        "word": "並且",
+        "hanvi": "TỊNH THẢ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "元",
+    "rank": 192,
+    "hanvi": "NGUYÊN",
+    "meaning": [
+      "bắt đầu, thứ nhất",
+      "chủ yếu, căn bản, nguyên tố",
+      "đơn vị tiền tệ"
+    ],
+    "vocabulary": [
+      {
+        "word": "亞元",
+        "hanvi": "Á NGUYÊN",
+        "meaning": ""
+      },
+      {
+        "word": "多元",
+        "hanvi": "ĐA NGUYÊN",
+        "meaning": ""
+      },
+      {
+        "word": "下元",
+        "hanvi": "HẠ NGUYÊN",
+        "meaning": ""
+      },
+      {
+        "word": "紀元",
+        "hanvi": "KỈ NGUYÊN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "结",
+    "rank": 193,
+    "hanvi": "KẾT",
+    "meaning": [
+      "thắt nút",
+      "kết, bó",
+      "liên kết"
+    ],
+    "vocabulary": [
+      {
+        "word": "巴结",
+        "hanvi": "BA KẾT",
+        "meaning": ""
+      },
+      {
+        "word": "打结",
+        "hanvi": "ĐẢ KẾT",
+        "meaning": ""
+      },
+      {
+        "word": "甘结",
+        "hanvi": "CAM KẾT",
+        "meaning": ""
+      },
+      {
+        "word": "喉结",
+        "hanvi": "HẦU KẾT",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "方",
+    "rank": 194,
+    "hanvi": "PHƯƠNG",
+    "meaning": [
+      "phía",
+      "vuông, hình vuông",
+      "trái lời, không tuân theo"
+    ],
+    "vocabulary": [
+      {
+        "word": "醫方",
+        "hanvi": "Y PHƯƠNG",
+        "meaning": ""
+      },
+      {
+        "word": "異方",
+        "hanvi": "DỊ PHƯƠNG",
+        "meaning": ""
+      },
+      {
+        "word": "多方",
+        "hanvi": "ĐA PHƯƠNG",
+        "meaning": ""
+      },
+      {
+        "word": "方案",
+        "hanvi": "PHƯƠNG ÁN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "本",
+    "rank": 195,
+    "hanvi": "BẢN",
+    "meaning": [
+      "gốc (cây)",
+      "vốn có, từ trước, nguồn gốc",
+      "mình (từ xưng hô)"
+    ],
+    "vocabulary": [
+      {
+        "word": "印本",
+        "hanvi": "ẤN BẢN",
+        "meaning": ""
+      },
+      {
+        "word": "本紀",
+        "hanvi": "BẢN KỈ",
+        "meaning": ""
+      },
+      {
+        "word": "本師",
+        "hanvi": "BẢN SƯ",
+        "meaning": ""
+      },
+      {
+        "word": "本位",
+        "hanvi": "BẢN VỊ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "欢",
+    "rank": 196,
+    "hanvi": "HOAN",
+    "meaning": [
+      "ngựa ngoan, ngựa lành"
+    ],
+    "vocabulary": [
+      {
+        "word": "喜欢",
+        "hanvi": "HỈ HOAN",
+        "meaning": ""
+      },
+      {
+        "word": "欢喜",
+        "hanvi": "HOAN HỈ",
+        "meaning": ""
+      },
+      {
+        "word": "欢呼",
+        "hanvi": "HOAN HÔ",
+        "meaning": ""
+      },
+      {
+        "word": "欢乐",
+        "hanvi": "HOAN LẠC",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "接",
+    "rank": 197,
+    "hanvi": "TIẾP",
+    "meaning": [
+      "tiếp tục, nối tiếp, tiếp theo"
+    ],
+    "vocabulary": [
+      {
+        "word": "繼接",
+        "hanvi": "KẾ TIẾP",
+        "meaning": ""
+      },
+      {
+        "word": "接濟",
+        "hanvi": "TIẾP TẾ",
+        "meaning": ""
+      },
+      {
+        "word": "近接",
+        "hanvi": "CẬN TIẾP",
+        "meaning": ""
+      },
+      {
+        "word": "酬接",
+        "hanvi": "THÙ TIẾP",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "用",
+    "rank": 198,
+    "hanvi": "DỤNG",
+    "meaning": [
+      "dùng, sử dụng"
+    ],
+    "vocabulary": [
+      {
+        "word": "補用",
+        "hanvi": "BỔ DỤNG",
+        "meaning": ""
+      },
+      {
+        "word": "僱用",
+        "hanvi": "CỐ DỤNG",
+        "meaning": ""
+      },
+      {
+        "word": "用具",
+        "hanvi": "DỤNG CỤ",
+        "meaning": ""
+      },
+      {
+        "word": "用度",
+        "hanvi": "DỤNG ĐỘ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "太",
+    "rank": 199,
+    "hanvi": "THÁI",
+    "meaning": [
+      "cao, to",
+      "rất"
+    ],
+    "vocabulary": [
+      {
+        "word": "亚太",
+        "hanvi": "Á THÁI",
+        "meaning": ""
+      },
+      {
+        "word": "亞太",
+        "hanvi": "Á THÁI",
+        "meaning": ""
+      },
+      {
+        "word": "太醫",
+        "hanvi": "THÁI Y",
+        "meaning": ""
+      },
+      {
+        "word": "乙太",
+        "hanvi": "ẤT THÁI",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "行",
+    "rank": 200,
+    "hanvi": "HÀNH",
+    "meaning": [
+      "đi",
+      "làm",
+      "hàng, dãy"
+    ],
+    "vocabulary": [
+      {
+        "word": "按行",
+        "hanvi": "ÁN HÀNH",
+        "meaning": ""
+      },
+      {
+        "word": "印行",
+        "hanvi": "ẤN HÀNH",
+        "meaning": ""
+      },
+      {
+        "word": "爬行",
+        "hanvi": "BA HÀNH",
+        "meaning": ""
+      },
+      {
+        "word": "步行",
+        "hanvi": "BỘ HÀNH",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "三",
+    "rank": 201,
+    "hanvi": "TAM",
+    "meaning": [
+      "ba, 3"
+    ],
+    "vocabulary": [
+      {
+        "word": "三孤",
+        "hanvi": "TAM CÔ",
+        "meaning": ""
+      },
+      {
+        "word": "三多",
+        "hanvi": "TAM ĐA",
+        "meaning": ""
+      },
+      {
+        "word": "三塗",
+        "hanvi": "TAM ĐỒ",
+        "meaning": ""
+      },
+      {
+        "word": "三途",
+        "hanvi": "TAM ĐỒ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "找",
+    "rank": 202,
+    "hanvi": "TRẢO",
+    "meaning": [
+      "bù vào chỗ thiếu",
+      "tìm kiếm"
+    ],
+    "vocabulary": [
+      {
+        "word": "寻找",
+        "hanvi": "TẦM TRẢO",
+        "meaning": ""
+      },
+      {
+        "word": "尋找",
+        "hanvi": "TẦM TRẢO",
+        "meaning": ""
+      },
+      {
+        "word": "找到",
+        "hanvi": "TRẢO ĐÁO",
+        "meaning": ""
+      },
+      {
+        "word": "找錢",
+        "hanvi": "TRẢO TIỀN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "温",
+    "rank": 203,
+    "hanvi": "ÔN",
+    "meaning": [
+      "nhắc lại, xem lại",
+      "ấm áp"
+    ],
+    "vocabulary": [
+      {
+        "word": "保温",
+        "hanvi": "BẢO ÔN",
+        "meaning": ""
+      },
+      {
+        "word": "温和",
+        "hanvi": "ÔN HOÀ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "轻",
+    "rank": 204,
+    "hanvi": "KHINH",
+    "meaning": [
+      "nhẹ",
+      "khinh rẻ, khinh bỉ"
+    ],
+    "vocabulary": [
+      {
+        "word": "年轻",
+        "hanvi": "NIÊN KHINH",
+        "meaning": ""
+      },
+      {
+        "word": "轻佻",
+        "hanvi": "KHINH KHIÊU",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "放",
+    "rank": 205,
+    "hanvi": "PHÓNG",
+    "meaning": [
+      "phóng, phi (ngựa)"
+    ],
+    "vocabulary": [
+      {
+        "word": "安放",
+        "hanvi": "AN PHÓNG",
+        "meaning": ""
+      },
+      {
+        "word": "播放",
+        "hanvi": "BÁ PHÓNG",
+        "meaning": ""
+      },
+      {
+        "word": "放歌",
+        "hanvi": "PHÓNG CA",
+        "meaning": ""
+      },
+      {
+        "word": "放夜",
+        "hanvi": "PHÓNG DẠ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "高",
+    "rank": 206,
+    "hanvi": "CAO",
+    "meaning": [
+      "cao",
+      "kiêu, đắt",
+      "cao thượng, thanh cao"
+    ],
+    "vocabulary": [
+      {
+        "word": "高隱",
+        "hanvi": "CAO ẨN",
+        "meaning": ""
+      },
+      {
+        "word": "高居",
+        "hanvi": "CAO CƯ",
+        "meaning": ""
+      },
+      {
+        "word": "高舉",
+        "hanvi": "CAO CỬ",
+        "meaning": ""
+      },
+      {
+        "word": "高弟",
+        "hanvi": "CAO ĐỆ",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "两",
+    "rank": 207,
+    "hanvi": "LẠNG",
+    "meaning": [
+      "lạng (đơn vị đo khối lượng)"
+    ],
+    "vocabulary": []
+  },
+  {
+    "char": "做",
+    "rank": 208,
+    "hanvi": "TỐ",
+    "meaning": [
+      "làm"
+    ],
+    "vocabulary": [
+      {
+        "word": "做主",
+        "hanvi": "TỐ CHỦ",
+        "meaning": ""
+      },
+      {
+        "word": "訂做",
+        "hanvi": "ĐÍNH TỐ",
+        "meaning": ""
+      },
+      {
+        "word": "做工",
+        "hanvi": "TỐ CÔNG",
+        "meaning": ""
+      },
+      {
+        "word": "做夢",
+        "hanvi": "TỐ MỘNG",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "已",
+    "rank": 209,
+    "hanvi": "DĨ",
+    "meaning": [
+      "ngừng, thôi",
+      "đã, rồi"
+    ],
+    "vocabulary": [
+      {
+        "word": "已故",
+        "hanvi": "DĨ CỐ",
+        "meaning": ""
+      },
+      {
+        "word": "已事",
+        "hanvi": "DĨ SỰ",
+        "meaning": ""
+      },
+      {
+        "word": "不已",
+        "hanvi": "BẤT DĨ",
+        "meaning": ""
+      },
+      {
+        "word": "已婚",
+        "hanvi": "DĨ HÔN",
+        "meaning": ""
+      }
+    ]
+  },
+  {
+    "char": "紧",
+    "rank": 210,
+    "hanvi": "KHẨN",
+    "meaning": [
+      "căng (dây)"
+    ],
+    "vocabulary": [
+      {
+        "word": "压紧",
+        "hanvi": "ÁP KHẨN",
+        "meaning": ""
+      },
+      {
+        "word": "拉紧",
+        "hanvi": "LẠP KHẨN",
+        "meaning": ""
+      },
+      {
+        "word": "束紧",
+        "hanvi": "THÚC KHẨN",
+        "meaning": ""
+      },
+      {
+        "word": "抓紧",
+        "hanvi": "TRẢO KHẨN",
+        "meaning": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Học Hán Tự - Spaced Repetition</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="app-wrapper">
+        <!-- ==================== VIEW 1: HOME / SET SELECTION ==================== -->
+        <section id="homeView" class="view-container">
+            <header class="home-header">
+                <div class="header-branding">
+                    <div>
+                        <h1 class="app-title">Học Hán Tự</h1>
+                    </div>
+                </div>
+            </header>
+
+            <div class="sets-grid" id="setsGrid">
+                <!-- Set 1 Card -->
+                <div class="set-card set-card-1" data-set-id="set1" data-file="set1_0_65.json">
+                    <div class="set-top-progress">
+                        <div class="set-progress-fill" id="set1-fill" style="width: 0%"></div>
+                    </div>
+                    <div class="set-card-content">
+                        <div class="set-card-header">
+                            <span class="set-tag">Bộ 1</span>
+                            <div class="set-header-right">
+                                <span class="set-badge">210 Chữ</span>
+                                <span class="set-pct-badge" id="set1-pct">0%</span>
+                            </div>
+                        </div>
+                        <h2 class="set-name">Bộ chữ 0% → 65%</h2>
+                        <div class="set-compact-stat">
+                            <span id="set1-learned">0 / 210 chữ đã học</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Set 2 Card -->
+                <div class="set-card set-card-2" data-set-id="set2" data-file="set2_65_85.json">
+                    <div class="set-top-progress">
+                        <div class="set-progress-fill" id="set2-fill" style="width: 0%"></div>
+                    </div>
+                    <div class="set-card-content">
+                        <div class="set-card-header">
+                            <span class="set-tag">Bộ 2</span>
+                            <div class="set-header-right">
+                                <span class="set-badge">411 Chữ</span>
+                                <span class="set-pct-badge" id="set2-pct">0%</span>
+                            </div>
+                        </div>
+                        <h2 class="set-name">Bộ chữ 65% → 85%</h2>
+                        <div class="set-compact-stat">
+                            <span id="set2-learned">0 / 411 chữ đã học</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Set 3 Card -->
+                <div class="set-card set-card-3" data-set-id="set3" data-file="set3_85_95.json">
+                    <div class="set-top-progress">
+                        <div class="set-progress-fill" id="set3-fill" style="width: 0%"></div>
+                    </div>
+                    <div class="set-card-content">
+                        <div class="set-card-header">
+                            <span class="set-tag">Bộ 3</span>
+                            <div class="set-header-right">
+                                <span class="set-badge">666 Chữ</span>
+                                <span class="set-pct-badge" id="set3-pct">0%</span>
+                            </div>
+                        </div>
+                        <h2 class="set-name">Bộ chữ 85% → 95%</h2>
+                        <div class="set-compact-stat">
+                            <span id="set3-learned">0 / 666 chữ đã học</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Set 4 Card -->
+                <div class="set-card set-card-4" data-set-id="set4" data-file="set4_95_100.json">
+                    <div class="set-top-progress">
+                        <div class="set-progress-fill" id="set4-fill" style="width: 0%"></div>
+                    </div>
+                    <div class="set-card-content">
+                        <div class="set-card-header">
+                            <span class="set-tag">Bộ 4</span>
+                            <div class="set-header-right">
+                                <span class="set-badge">2322 Chữ</span>
+                                <span class="set-pct-badge" id="set4-pct">0%</span>
+                            </div>
+                        </div>
+                        <h2 class="set-name">Bộ chữ 95% → 100%</h2>
+                        <div class="set-compact-stat">
+                            <span id="set4-learned">0 / 2322 chữ đã học</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== VIEW 2: STUDY / QUIZ APP ==================== -->
+        <section id="studyView" class="view-container hidden">
+            <header class="study-header">
+                <div class="header-left">
+                    <button id="backToHomeBtn" class="ghost-btn back-btn" type="button">
+                        ← Các bộ chữ
+                    </button>
+                    <span id="currentSetBadge" class="set-indicator-badge">Bộ 1: 0% → 65%</span>
+                </div>
+
+                <div class="header-actions">
+                    <button id="learnModeBtn" class="ghost-btn active" type="button">Học</button>
+                    <button id="reviewModeBtn" class="ghost-btn" type="button">Ôn tập</button>
+                    <button id="learnedWordsTabBtn" class="ghost-btn" type="button">Chữ đã học</button>
+                </div>
+            </header>
+
+            <!-- Top Edge Viewport Progress Bar -->
+            <div class="viewport-progress-track" aria-label="Session progress">
+                <div id="progressFill" class="progress-fill"></div>
+            </div>
+
+            <!-- Quiz Card Container (Borderless full viewport) -->
+            <section class="card" id="cardContainer" aria-live="polite">
+                <div class="card-content">
+                    <!-- Display Areas -->
+                    <p id="wordText" class="word-display hidden"></p>
+                    <p id="meaningText" class="meaning-display hidden"></p>
+                    <p id="promptText" class="prompt-text"></p>
+
+                    <!-- Single Centered Definition Card Container (No button) -->
+                    <div id="definitionDetailBox" class="definition-centered-container hidden">
+                        <div class="def-char" id="defCharDisplay"></div>
+                        <div class="def-hanvi" id="defHanviDisplay"></div>
+                        <div class="def-meaning" id="defMeaningDisplay"></div>
+                        <div class="def-vocab-wrap" id="defVocabWrap"></div>
+                    </div>
+
+                    <!-- Draw Review Mode Container -->
+                    <div id="drawWrap" class="draw-container hidden">
+                        <div class="draw-header-top">
+                            <span class="draw-char" id="drawCharTop"></span>
+                            <span class="draw-hanvi" id="drawHanviTop"></span>
+                        </div>
+                        <div class="draw-canvas-box">
+                            <canvas id="drawCanvas"></canvas>
+                        </div>
+                        <div class="draw-actions">
+                            <button id="drawClearBtn" class="ghost-btn draw-clear-btn" type="button">Xóa nét</button>
+                            <button id="drawNextBtn" class="primary-btn draw-next-btn" type="button">Tiếp tục →</button>
+                        </div>
+                    </div>
+
+                    <!-- Typing Input Mode -->
+                    <div id="typingWrap" class="typing-container hidden">
+                        <input id="typingInput" type="text" autocomplete="off" placeholder="Gõ âm Hán Việt..." />
+                    </div>
+
+                    <!-- Multiple Choices Mode -->
+                    <div id="choicesWrap" class="choices"></div>
+
+                    <!-- Feedback Row -->
+                    <div class="feedback-row">
+                        <span id="feedbackText"></span>
+                    </div>
+
+                    <!-- Bottom Guide for Navigation -->
+                    <div class="card-footer-guide" id="cardFooterGuide">
+                        Vuốt (mobile) hoặc nhấn Enter (máy tính) để tiếp tục
+                    </div>
+                </div>
+            </section>
+
+            <!-- Learned Words Panel View -->
+            <section class="card hidden" id="learnedWordsPanel" aria-live="polite">
+                <section class="progress-track" aria-label="Learned words progress">
+                    <div id="learnedProgressFill" class="progress-fill"></div>
+                </section>
+
+                <div class="panel-header">
+                    <div>
+                        <h2 class="panel-title">Chữ đã học</h2>
+                        <span class="panel-subtitle" id="learnedCountSub">-</span>
+                    </div>
+                    <div class="panel-actions">
+                        <input id="learnedSearchInput" class="learned-search-input" type="text"
+                            placeholder="Tìm kiếm chữ, Hán Việt, nghĩa..." />
+                        <button id="resetProgressBtn" class="ghost-btn danger-btn" type="button">Xóa tiến độ bộ
+                            này</button>
+                    </div>
+                </div>
+
+                <div id="learnedWordsList" class="learned-list"></div>
+            </section>
+        </section>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
