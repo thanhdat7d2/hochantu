@@ -735,16 +735,17 @@ function renderDrawCard(entry, card) {
 
 function setupCanvas() {
     if (!drawCanvas) return;
-    const box = drawCanvas.parentElement;
-    const rect = box.getBoundingClientRect();
+    const rect = drawCanvas.getBoundingClientRect();
     const dpr = window.devicePixelRatio || 1;
 
-    drawCanvas.width = rect.width * dpr;
-    drawCanvas.height = rect.height * dpr;
-    drawCanvas.style.width = `${rect.width}px`;
-    drawCanvas.style.height = `${rect.height}px`;
+    const width = rect.width || drawCanvas.clientWidth || 300;
+    const height = rect.height || drawCanvas.clientHeight || 300;
+
+    drawCanvas.width = Math.round(width * dpr);
+    drawCanvas.height = Math.round(height * dpr);
 
     drawCtx = drawCanvas.getContext("2d");
+    drawCtx.setTransform(1, 0, 0, 1, 0, 0); // Reset transform before scaling
     drawCtx.scale(dpr, dpr);
     drawCtx.lineCap = "round";
     drawCtx.lineJoin = "round";
@@ -752,7 +753,7 @@ function setupCanvas() {
     drawCtx.strokeStyle = "#0f172a";
 
     // Draw background guide grid (rice grid / 米字格)
-    drawGridGuide(rect.width, rect.height);
+    drawGridGuide(width, height);
 }
 
 function drawGridGuide(w, h) {
@@ -775,10 +776,11 @@ function drawGridGuide(w, h) {
 
 function clearCanvas() {
     if (!drawCanvas || !drawCtx) return;
-    const box = drawCanvas.parentElement;
-    const rect = box.getBoundingClientRect();
-    drawCtx.clearRect(0, 0, rect.width, rect.height);
-    drawGridGuide(rect.width, rect.height);
+    const rect = drawCanvas.getBoundingClientRect();
+    const width = rect.width || drawCanvas.clientWidth || 300;
+    const height = rect.height || drawCanvas.clientHeight || 300;
+    drawCtx.clearRect(0, 0, width, height);
+    drawGridGuide(width, height);
 }
 
 // ----------------------------------------------------
