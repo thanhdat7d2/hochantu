@@ -119,6 +119,7 @@ const drawCharTop = document.getElementById("drawCharTop");
 const drawHanviTop = document.getElementById("drawHanviTop");
 const drawCanvas = document.getElementById("drawCanvas");
 const drawClearBtn = document.getElementById("drawClearBtn");
+const drawForgotBtn = document.getElementById("drawForgotBtn");
 const drawNextBtn = document.getElementById("drawNextBtn");
 
 const choicesWrap = document.getElementById("choicesWrap");
@@ -126,6 +127,16 @@ const typingWrap = document.getElementById("typingWrap");
 const typingInput = document.getElementById("typingInput");
 const feedbackText = document.getElementById("feedbackText");
 const cardFooterGuide = document.getElementById("cardFooterGuide");
+
+// Session Summary Screen
+const sessionSummaryBox = document.getElementById("sessionSummaryBox");
+const summarySubtitle = document.getElementById("summarySubtitle");
+const summaryTotalCards = document.getElementById("summaryTotalCards");
+const summaryAccuracy = document.getElementById("summaryAccuracy");
+const summaryCorrectCount = document.getElementById("summaryCorrectCount");
+const summaryWrongCount = document.getElementById("summaryWrongCount");
+const summaryBackHomeBtn = document.getElementById("summaryBackHomeBtn");
+const continueSessionBtn = document.getElementById("continueSessionBtn");
 
 const learnedWordsPanel = document.getElementById("learnedWordsPanel");
 const learnedWordsList = document.getElementById("learnedWordsList");
@@ -136,16 +147,24 @@ const resetProgressBtn = document.getElementById("resetProgressBtn");
 // ==========================================
 // SRS / SPACED REPETITION MATH
 // ==========================================
+const INTERVAL_UNIT_MS = 60 * 1000; // 1 distance unit = 1 minute of real-time scheduling
+
 function masteryScoreFromStability(stability) {
     const safeStability = Math.max(S_MIN, Number(stability) || S_MIN);
     const raw = 1 + 99 * Math.log(safeStability / S_MIN) / Math.log(S_MAX / S_MIN);
     return Math.max(1, Math.min(100, raw));
 }
 
-function computeUrgency(counter, stability) {
+function computeUrgency(counter, stability, lastReviewed = null, nextDue = null) {
     const safeCounter = Math.max(0, Number(counter) || 0);
     const safeStability = Math.max(S_MIN, Number(stability) || S_MIN);
-    return Math.exp(-safeCounter / safeStability) - 0.85;
+    const now = Date.now();
+    const elapsedUnits = lastReviewed ? Math.max(0, (now - Number(lastReviewed)) / INTERVAL_UNIT_MS) : 0;
+    const dueBonus = (nextDue && now >= Number(nextDue))
+        ? Math.min(0.5, (now - Number(nextDue)) / (safeStability * INTERVAL_UNIT_MS))
+        : 0;
+    const effectiveCounter = safeCounter + elapsedUnits;
+    return (0.85 - Math.exp(-effectiveCounter / safeStability)) + dueBonus;
 }
 
 function createRtCounter() {
@@ -167,6 +186,8 @@ function createInitialWordState(id) {
         counter: 0,
         distance: 1,
         grow_rate: 1.4,
+        last_reviewed: null,
+        next_due: null,
         urgency: computeUrgency(0, 6),
         mastery_score: masteryScoreFromStability(6),
         RTcounter: createRtCounter(),
@@ -179,13 +200,16 @@ function createInitialWordState(id) {
 }
 
 function initializeIntroducedWordState(state) {
+    const now = Date.now();
     return {
         ...state,
         stability: 6,
         counter: 0,
         distance: 1,
         grow_rate: 1.4,
-        urgency: computeUrgency(0, 6),
+        last_reviewed: now,
+        next_due: now + INTERVAL_UNIT_MS,
+        urgency: computeUrgency(0, 6, now, now + INTERVAL_UNIT_MS),
         mastery_score: masteryScoreFromStability(6),
         RTcounter: createRtCounter(),
         draw_count: state.draw_count || 0,
@@ -199,9 +223,19 @@ function initializeIntroducedWordState(state) {
 function recalculateWordMetrics(state) {
     state.stability = Math.max(6, Number(state.stability) || 6);
     state.counter = Math.max(0, Number(state.counter) || 0);
-    state.urgency = computeUrgency(state.counter, state.stability);
+    state.urgency = computeUrgency(state.counter, state.stability, state.last_reviewed, state.next_due);
     state.mastery_score = masteryScoreFromStability(state.stability);
     return state;
+}
+
+function tickWordCounters(excludeWordId) {
+    for (let i = 0; i < wordStates.length; i++) {
+        const st = wordStates[i];
+        if (st && isWordIntroduced(st) && st.id !== excludeWordId) {
+            st.counter = (Number(st.counter) || 0) + 1;
+            recalculateWordMetrics(st);
+        }
+    }
 }
 
 function processReview(state, reviewType, isCorrect) {
@@ -246,9 +280,14 @@ function processReview(state, reviewType, isCorrect) {
         state.counter = 0;
     }
 
+    const now = Date.now();
+    state.last_reviewed = now;
+    state.next_due = now + state.distance * INTERVAL_UNIT_MS;
+
     state.recent_queue.shift();
     state.total_card_seen = safeTotalSeen + 1;
     recalculateWordMetrics(state);
+    tickWordCounters(state.id);
 
     return {
         wordState: state,
@@ -281,7 +320,10 @@ function loadSetState(setId, totalWords) {
             const merged = [];
             for (let i = 0; i < totalWords; i++) {
                 const ext = map.get(i);
-                merged.push(ext ? { ...createInitialWordState(i), ...ext, RTcounter: { ...createRtCounter(), ...(ext.RTcounter || {}) } } : createInitialWordState(i));
+                const mergedState = ext
+                    ? { ...createInitialWordState(i), ...ext, RTcounter: { ...createRtCounter(), ...(ext.RTcounter || {}) } }
+                    : createInitialWordState(i);
+                merged.push(recalculateWordMetrics(mergedState));
             }
             return merged;
         }
@@ -424,7 +466,10 @@ function createSessionRuntime(mode) {
         bootstrapStepIndex: bootstrapData.stepIndex,
         queue: [],
         recentWordHistory: [],
-        completedInSession: 0
+        completedInSession: 0,
+        correctInSession: 0,
+        wrongInSession: 0,
+        sessionEnded: false
     };
 }
 
@@ -573,6 +618,11 @@ function startSession(mode = "learn") {
     learnModeBtn.classList.toggle("active", mode === "learn");
     reviewModeBtn.classList.toggle("active", mode === "review");
 
+    // Recalculate time-based urgency for all introduced words at session start
+    wordStates.forEach(st => {
+        if (isWordIntroduced(st)) recalculateWordMetrics(st);
+    });
+
     sessionRuntime = createSessionRuntime(mode);
     advanceToNextCard();
 }
@@ -582,6 +632,11 @@ function advanceToNextCard() {
     feedbackText.textContent = "";
     feedbackText.className = "";
 
+    if (sessionRuntime && sessionRuntime.completedInSession >= SESSION_SIZE) {
+        renderSessionSummary();
+        return;
+    }
+
     const card = getNextCard();
     if (!card) {
         renderEmptyState();
@@ -589,11 +644,40 @@ function advanceToNextCard() {
     }
 
     currentCard = card;
-    sessionRuntime.completedInSession = (sessionRuntime.completedInSession + 1) % SESSION_SIZE;
-    const pct = Math.min(100, Math.round(((sessionRuntime.completedInSession || 1) / SESSION_SIZE) * 100));
+    sessionRuntime.completedInSession += 1;
+    const pct = Math.min(100, Math.round((sessionRuntime.completedInSession / SESSION_SIZE) * 100));
     progressFill.style.width = `${pct}%`;
 
     renderCard(card);
+}
+
+function renderSessionSummary() {
+    if (!sessionRuntime) return;
+    sessionRuntime.sessionEnded = true;
+    currentCard = null;
+
+    wordText.classList.add("hidden");
+    meaningText.classList.add("hidden");
+    promptText.classList.add("hidden");
+    definitionDetailBox.classList.add("hidden");
+    drawWrap.classList.add("hidden");
+    choicesWrap.classList.add("hidden");
+    typingWrap.classList.add("hidden");
+    cardFooterGuide.classList.add("hidden");
+    sessionSummaryBox.classList.remove("hidden");
+
+    const totalCards = sessionRuntime.completedInSession;
+    const correct = sessionRuntime.correctInSession;
+    const wrong = sessionRuntime.wrongInSession;
+    const gradedTotal = correct + wrong;
+    const accuracy = gradedTotal > 0 ? Math.round((correct / gradedTotal) * 100) : 100;
+
+    summarySubtitle.textContent = `Bạn đã hoàn thành ${totalCards} thẻ trong phiên này.`;
+    summaryTotalCards.textContent = `${totalCards}`;
+    summaryAccuracy.textContent = `${accuracy}%`;
+    summaryCorrectCount.textContent = `${correct}`;
+    summaryWrongCount.textContent = `${wrong}`;
+    progressFill.style.width = "100%";
 }
 
 function renderEmptyState() {
@@ -603,6 +687,8 @@ function renderEmptyState() {
     drawWrap.classList.add("hidden");
     choicesWrap.classList.add("hidden");
     typingWrap.classList.add("hidden");
+    sessionSummaryBox.classList.add("hidden");
+    promptText.classList.remove("hidden");
     promptText.textContent = "Bạn đã hoàn thành tất cả chữ trong bộ này!";
     cardFooterGuide.classList.add("hidden");
 }
@@ -621,6 +707,7 @@ function renderCard(card) {
     drawWrap.classList.add("hidden");
     choicesWrap.classList.add("hidden");
     typingWrap.classList.add("hidden");
+    sessionSummaryBox.classList.add("hidden");
     choicesWrap.innerHTML = "";
     typingInput.value = "";
     typingInput.className = "";
@@ -694,20 +781,48 @@ function renderDefinitionCard(entry, card) {
     const st = wordStates[card.wordId];
     if (st && !st.first_def_shown) {
         st.first_def_shown = true;
-        st.draw_count = 1;
-        saveSetState(currentSetId, wordStates);
-        // Queue first draw card right after this definition
+        // Queue first draw card right after this definition (draw_count will increment only when draw review is completed)
         sessionRuntime.queue.unshift({
             wordId: card.wordId,
             cardType: REVIEW_TYPES.DRAW,
             isFirstDraw: true
         });
     }
+    tickWordCounters(card.wordId);
+    saveSetState(currentSetId, wordStates);
 }
 
 // ----------------------------------------------------
 // DRAW REVIEW CARD (Canvas)
 // ----------------------------------------------------
+function submitDrawReview(card, isCorrect) {
+    if (!card || card.cardType !== REVIEW_TYPES.DRAW) return;
+
+    if (sessionRuntime) {
+        if (isCorrect) sessionRuntime.correctInSession += 1;
+        else sessionRuntime.wrongInSession += 1;
+    }
+
+    if (isCorrect) {
+        if (correctAudio) correctAudio.play().catch(() => {});
+    } else {
+        if (wrongAudio) wrongAudio.play().catch(() => {});
+    }
+
+    const res = processReview(wordStates[card.wordId], REVIEW_TYPES.DRAW, isCorrect);
+    wordStates[card.wordId] = res.wordState;
+    saveSetState(currentSetId, wordStates);
+
+    if (res.shouldShowDefinitionImmediately && sessionRuntime) {
+        sessionRuntime.queue.push({
+            wordId: card.wordId,
+            cardType: REVIEW_TYPES.DEFINITION
+        });
+    }
+
+    advanceToNextCard();
+}
+
 function renderDrawCard(entry, card) {
     promptText.textContent = "";
     promptText.classList.add("hidden");
@@ -726,10 +841,14 @@ function renderDrawCard(entry, card) {
         clearCanvas();
     };
 
+    if (drawForgotBtn) {
+        drawForgotBtn.onclick = () => {
+            submitDrawReview(card, false);
+        };
+    }
+
     drawNextBtn.onclick = () => {
-        processReview(wordStates[card.wordId], REVIEW_TYPES.DRAW, true);
-        saveSetState(currentSetId, wordStates);
-        advanceToNextCard();
+        submitDrawReview(card, true);
     };
 }
 
@@ -820,8 +939,8 @@ function renderCharToHanviTyping(entry, card) {
         answered = true;
         typingInput.disabled = true;
 
-        const normalizedTyped = normalizeVietnamese(typed);
-        const normalizedCorrect = normalizeVietnamese(entry.hanvi);
+        const normalizedTyped = normalizeExactVietnamese(typed);
+        const normalizedCorrect = normalizeExactVietnamese(entry.hanvi);
         const isCorrect = normalizedTyped === normalizedCorrect;
 
         if (isCorrect) {
@@ -834,7 +953,15 @@ function renderCharToHanviTyping(entry, card) {
     };
 
     typingInput.onkeydown = (e) => {
-        if (e.key === "Enter") submit();
+        if (e.key === "Enter") {
+            e.preventDefault();
+            e.stopPropagation();
+            if (answered) {
+                advanceToNextCard();
+            } else {
+                submit();
+            }
+        }
     };
 }
 
@@ -894,7 +1021,11 @@ function renderChoices(options, correctValue, card, reviewType, isHanziChar = fa
         const btn = document.createElement("button");
         btn.className = `choice-btn ${isHanziChar ? "choice-hanzi-char" : ""}`;
         btn.type = "button";
-        btn.innerHTML = `<span>${opt}</span>`;
+        btn.dataset.optValue = opt;
+
+        const span = document.createElement("span");
+        span.textContent = opt;
+        btn.appendChild(span);
 
         btn.onclick = () => {
             if (answered) return;
@@ -907,7 +1038,7 @@ function renderChoices(options, correctValue, card, reviewType, isHanziChar = fa
                 btn.classList.add("incorrect");
                 const allButtons = choicesWrap.querySelectorAll(".choice-btn");
                 allButtons.forEach(b => {
-                    if (b.textContent.includes(correctValue)) {
+                    if (b.dataset.optValue === correctValue) {
                         b.classList.add("correct");
                     }
                 });
@@ -924,6 +1055,11 @@ function renderChoices(options, correctValue, card, reviewType, isHanziChar = fa
 // ANSWER HANDLING (NO AUTO TIMEOUT)
 // ==========================================
 function handleAnswer(isCorrect, card, reviewType, answerExplanation) {
+    if (sessionRuntime) {
+        if (isCorrect) sessionRuntime.correctInSession += 1;
+        else sessionRuntime.wrongInSession += 1;
+    }
+
     if (isCorrect) {
         if (correctAudio) correctAudio.play().catch(() => {});
         feedbackText.textContent = "Chính xác! ✓ (Vuốt hoặc Enter để tiếp tục)";
@@ -952,6 +1088,15 @@ function handleAnswer(isCorrect, card, reviewType, answerExplanation) {
 // ==========================================
 // UTILITY FUNCTIONS
 // ==========================================
+function normalizeExactVietnamese(str) {
+    if (!str) return "";
+    return str
+        .normalize("NFC")
+        .toLowerCase()
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
 function normalizeVietnamese(str) {
     if (!str) return "";
     return str
@@ -1055,6 +1200,12 @@ function renderLearnedWordsList() {
 // SWIPE GESTURE HANDLER
 // ==========================================
 function handleSwipeAction() {
+    // 0. If session summary screen is active
+    if (!sessionSummaryBox.classList.contains("hidden")) {
+        startSession(currentMode);
+        return;
+    }
+
     // 1. If definition card is active
     if (!definitionDetailBox.classList.contains("hidden")) {
         advanceToNextCard();
@@ -1064,10 +1215,8 @@ function handleSwipeAction() {
     // 2. If draw review is active
     if (!drawWrap.classList.contains("hidden")) {
         if (currentCard && currentCard.cardType === REVIEW_TYPES.DRAW) {
-            processReview(wordStates[currentCard.wordId], REVIEW_TYPES.DRAW, true);
-            saveSetState(currentSetId, wordStates);
+            submitDrawReview(currentCard, true);
         }
-        advanceToNextCard();
         return;
     }
 
@@ -1105,6 +1254,14 @@ function wireEvents() {
 
     // Back to home
     backToHomeBtn.onclick = returnToHome;
+    if (summaryBackHomeBtn) {
+        summaryBackHomeBtn.onclick = returnToHome;
+    }
+    if (continueSessionBtn) {
+        continueSessionBtn.onclick = () => {
+            startSession(currentMode);
+        };
+    }
 
     // Study Header Tabs
     learnModeBtn.onclick = () => {
@@ -1235,6 +1392,12 @@ function wireEvents() {
 
         // Enter or Space key navigation
         if (e.key === "Enter" || e.key === " ") {
+            if (!sessionSummaryBox.classList.contains("hidden")) {
+                e.preventDefault();
+                startSession(currentMode);
+                return;
+            }
+
             if (!definitionDetailBox.classList.contains("hidden")) {
                 e.preventDefault();
                 advanceToNextCard();
@@ -1244,10 +1407,8 @@ function wireEvents() {
             if (!drawWrap.classList.contains("hidden")) {
                 e.preventDefault();
                 if (currentCard && currentCard.cardType === REVIEW_TYPES.DRAW) {
-                    processReview(wordStates[currentCard.wordId], REVIEW_TYPES.DRAW, true);
-                    saveSetState(currentSetId, wordStates);
+                    submitDrawReview(currentCard, true);
                 }
-                advanceToNextCard();
                 return;
             }
 
@@ -1260,8 +1421,17 @@ function wireEvents() {
     });
 }
 
+function registerServiceWorker() {
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js").catch(err => {
+            console.warn("Service Worker registration failed:", err);
+        });
+    }
+}
+
 // Initialize on page load
 window.addEventListener("DOMContentLoaded", () => {
     refreshHomeProgress();
     wireEvents();
+    registerServiceWorker();
 });

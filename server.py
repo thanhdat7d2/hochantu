@@ -50,11 +50,14 @@ def open_browser(url):
         webbrowser.open(url)
 
 
+class ThreadedHTTPServer(socketserver.ThreadingTCPServer):
+    allow_reuse_address = True
+    daemon_threads = True
+
+
 def run():
     os.chdir(DIRECTORY)
-    # Enable address reuse
-    socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer(("", PORT), CustomHTTPHandler) as httpd:
+    with ThreadedHTTPServer(("", PORT), CustomHTTPHandler) as httpd:
         url = f"http://localhost:{PORT}"
         print(f"==================================================")
         print(f"  Học Hán Tự - Spaced Repetition App")

@@ -233,8 +233,19 @@ body {
 
 .set-compact-stat {
     font-size: 0.85rem;
-    opacity: 0.9;
+    opacity: 0.92;
     font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.set-mastery-stat {
+    font-size: 0.82rem;
+    background: rgba(0, 0, 0, 0.18);
+    padding: 2px 8px;
+    border-radius: 9999px;
 }
 
 /* ==========================================================================
@@ -531,11 +542,106 @@ canvas#drawCanvas {
     border-radius: 10px;
 }
 
+.draw-forgot-btn {
+    flex: 1;
+    padding: 14px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
 .draw-next-btn {
-    flex: 2;
+    flex: 1.5;
     padding: 14px;
     font-size: 1.05rem;
     border-radius: 10px;
+}
+
+/* Session Summary Screen */
+.session-summary-container {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+}
+
+.summary-title {
+    font-family: "SF Pro Rounded", "Inter", Arial, sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.summary-subtitle {
+    font-size: 0.95rem;
+    color: #64748b;
+    margin-top: -8px;
+}
+
+.summary-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    width: 100%;
+}
+
+.summary-stat-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 14px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.summary-stat-value {
+    font-family: "SF Pro Rounded", "Inter", Arial, sans-serif;
+    font-size: 1.65rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.summary-stat-accent {
+    color: #0000ff;
+}
+
+.summary-stat-correct {
+    color: #059669;
+}
+
+.summary-stat-wrong {
+    color: #dc2626;
+}
+
+.summary-stat-label {
+    font-size: 0.82rem;
+    color: #64748b;
+    font-weight: 500;
+}
+
+.summary-actions {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.summary-actions .ghost-btn {
+    flex: 1;
+}
+
+.summary-actions .primary-btn {
+    flex: 1.6;
 }
 
 /* Bottom Navigation Guide */

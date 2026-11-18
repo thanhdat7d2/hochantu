@@ -8,6 +8,10 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>Học Hán Tự - Spaced Repetition</title>
+    <meta name="theme-color" content="#0000ff" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="./icon/app-icon.svg" />
+    <link rel="apple-touch-icon" href="./icon/app-icon.svg" />
     <link rel="stylesheet" href="./styles.css" />
 </head>
 
@@ -40,6 +44,7 @@
                         <h2 class="set-name">Bộ chữ 0% → 65%</h2>
                         <div class="set-compact-stat">
                             <span id="set1-learned">0 / 210 chữ đã học</span>
+                            <span class="set-mastery-stat">Độ thông thạo: <strong id="set1-mastery">0%</strong></span>
                         </div>
                     </div>
                 </div>
@@ -60,6 +65,7 @@
                         <h2 class="set-name">Bộ chữ 65% → 85%</h2>
                         <div class="set-compact-stat">
                             <span id="set2-learned">0 / 411 chữ đã học</span>
+                            <span class="set-mastery-stat">Độ thông thạo: <strong id="set2-mastery">0%</strong></span>
                         </div>
                     </div>
                 </div>
@@ -80,6 +86,7 @@
                         <h2 class="set-name">Bộ chữ 85% → 95%</h2>
                         <div class="set-compact-stat">
                             <span id="set3-learned">0 / 666 chữ đã học</span>
+                            <span class="set-mastery-stat">Độ thông thạo: <strong id="set3-mastery">0%</strong></span>
                         </div>
                     </div>
                 </div>
@@ -100,6 +107,7 @@
                         <h2 class="set-name">Bộ chữ 95% → 100%</h2>
                         <div class="set-compact-stat">
                             <span id="set4-learned">0 / 2322 chữ đã học</span>
+                            <span class="set-mastery-stat">Độ thông thạo: <strong id="set4-mastery">0%</strong></span>
                         </div>
                     </div>
                 </div>
@@ -155,17 +163,46 @@
                         </div>
                         <div class="draw-actions">
                             <button id="drawClearBtn" class="ghost-btn draw-clear-btn" type="button">Xóa nét</button>
-                            <button id="drawNextBtn" class="primary-btn draw-next-btn" type="button">Tiếp tục →</button>
+                            <button id="drawForgotBtn" class="ghost-btn danger-btn draw-forgot-btn" type="button">Chưa nhớ ✗</button>
+                            <button id="drawNextBtn" class="primary-btn draw-next-btn" type="button">Đã nhớ ✓</button>
                         </div>
                     </div>
 
                     <!-- Typing Input Mode -->
                     <div id="typingWrap" class="typing-container hidden">
-                        <input id="typingInput" type="text" autocomplete="off" placeholder="Gõ âm Hán Việt..." />
+                        <input id="typingInput" type="text" autocomplete="off" placeholder="Gõ âm Hán Việt (có dấu)..." />
                     </div>
 
                     <!-- Multiple Choices Mode -->
                     <div id="choicesWrap" class="choices"></div>
+
+                    <!-- Session Summary / End-of-Session Screen -->
+                    <div id="sessionSummaryBox" class="session-summary-container hidden">
+                        <h2 class="summary-title">Hoàn thành phiên học!</h2>
+                        <p class="summary-subtitle" id="summarySubtitle">Bạn đã hoàn thành 50 thẻ trong phiên này.</p>
+                        <div class="summary-stats-grid">
+                            <div class="summary-stat-card">
+                                <span class="summary-stat-value" id="summaryTotalCards">50</span>
+                                <span class="summary-stat-label">Tổng số thẻ</span>
+                            </div>
+                            <div class="summary-stat-card">
+                                <span class="summary-stat-value summary-stat-accent" id="summaryAccuracy">100%</span>
+                                <span class="summary-stat-label">Độ chính xác</span>
+                            </div>
+                            <div class="summary-stat-card">
+                                <span class="summary-stat-value summary-stat-correct" id="summaryCorrectCount">0</span>
+                                <span class="summary-stat-label">Trả lời đúng</span>
+                            </div>
+                            <div class="summary-stat-card">
+                                <span class="summary-stat-value summary-stat-wrong" id="summaryWrongCount">0</span>
+                                <span class="summary-stat-label">Trả lời sai</span>
+                            </div>
+                        </div>
+                        <div class="summary-actions">
+                            <button id="summaryBackHomeBtn" class="ghost-btn" type="button">← Các bộ chữ</button>
+                            <button id="continueSessionBtn" class="primary-btn" type="button">Tiếp tục phiên mới →</button>
+                        </div>
+                    </div>
 
                     <!-- Feedback Row -->
                     <div class="feedback-row">

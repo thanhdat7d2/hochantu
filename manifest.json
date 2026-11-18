@@ -1,0 +1,19 @@
+{
+  "name": "Học Hán Tự - Spaced Repetition",
+  "short_name": "Học Hán Tự",
+  "description": "Ứng dụng học Hán tự theo phương pháp lặp lại ngắt quãng (Spaced Repetition)",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f4f7",
+  "theme_color": "#0000ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icon/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
