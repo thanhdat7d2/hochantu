@@ -2,6 +2,10 @@
 
 A lightweight, offline-capable web application for learning Chinese characters (*Hán Tự*) with Vietnamese *Hán Việt* readings and meanings using spaced repetition.
 
+
+
+![Demo](./assets/demo.png)
+
 ## Features
 
 - **4 Frequency-Based Character Sets** (3,609 characters total):
