@@ -1,19 +1,19 @@
-const CACHE_NAME = "hochantu-cache-v1";
+const CACHE_NAME = "hochantu-cache-v2";
 const ASSETS_TO_CACHE = [
     "./",
     "./index.html",
-    "./styles.css",
-    "./app.js",
+    "./src/styles.css",
+    "./src/app.js",
     "./manifest.json",
-    "./icon/app-icon.svg",
-    "./font/Inter-Regular.otf",
-    "./font/SF-Pro-Rounded-Bold.otf",
-    "./audio/true.wav",
-    "./audio/false.wav",
-    "./set1_0_65.json",
-    "./set2_65_85.json",
-    "./set3_85_95.json",
-    "./set4_95_100.json"
+    "./assets/icons/app-icon.svg",
+    "./assets/fonts/Inter-Regular.otf",
+    "./assets/fonts/SF-Pro-Rounded-Bold.otf",
+    "./assets/audio/true.wav",
+    "./assets/audio/false.wav",
+    "./data/set1_0_65.json",
+    "./data/set2_65_85.json",
+    "./data/set3_85_95.json",
+    "./data/set4_95_100.json"
 ];
 
 self.addEventListener("install", (event) => {

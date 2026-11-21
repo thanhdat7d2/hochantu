@@ -52,10 +52,10 @@ const BOOTSTRAP_SEQUENCE = [
 ];
 
 const SETS_CONFIG = {
-    set1: { name: "Bộ 1: 0% → 65%", file: "set1_0_65.json", count: 210 },
-    set2: { name: "Bộ 2: 65% → 85%", file: "set2_65_85.json", count: 411 },
-    set3: { name: "Bộ 3: 85% → 95%", file: "set3_85_95.json", count: 666 },
-    set4: { name: "Bộ 4: 95% → 100%", file: "set4_95_100.json", count: 2322 }
+    set1: { name: "Bộ 1: 0% → 65%", file: "data/set1_0_65.json", count: 210 },
+    set2: { name: "Bộ 2: 65% → 85%", file: "data/set2_65_85.json", count: 411 },
+    set3: { name: "Bộ 3: 85% → 95%", file: "data/set3_85_95.json", count: 666 },
+    set4: { name: "Bộ 4: 95% → 100%", file: "data/set4_95_100.json", count: 2322 }
 };
 
 // ==========================================
@@ -80,8 +80,8 @@ let lastDrawY = 0;
 let correctAudio = null;
 let wrongAudio = null;
 try {
-    correctAudio = new Audio("./audio/true.wav");
-    wrongAudio = new Audio("./audio/false.wav");
+    correctAudio = new Audio("./assets/audio/true.wav");
+    wrongAudio = new Audio("./assets/audio/false.wav");
 } catch (e) {
     console.warn("Feedback audio fallback:", e);
 }

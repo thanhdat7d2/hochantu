@@ -43,22 +43,35 @@ A lightweight, offline-capable web application for learning Chinese characters (
 
 ```text
 hochantu/
-├── index.html          # Main UI (home view, study view, session summary, learned panel)
-├── styles.css          # Application styling
-├── app.js              # SRS logic, session builder, card renderers, canvas, SW registration
-├── manifest.json       # Web app manifest for PWA installation
-├── sw.js               # Service Worker for offline caching
-├── server.py           # Local Python HTTP server (port 7583, no-cache headers)
-├── run.bat             # Windows launcher for server.py
-├── set1_0_65.json      # Set 1 dataset (210 characters)
-├── set2_65_85.json     # Set 2 dataset (411 characters)
-├── set3_85_95.json     # Set 3 dataset (666 characters)
-├── set4_95_100.json    # Set 4 dataset (2,322 characters)
-├── audio/              # Feedback sound effects (true.wav, false.wav)
-├── font/               # Local fonts (Inter-Regular.otf, SF-Pro-Rounded-Bold.otf)
-└── icon/               # App icon (app-icon.svg)
+├── .github/
+│   └── workflows/
+│       └── validate.yml        # CI check for JS, Python, and JSON syntax
+├── assets/
+│   ├── audio/                  # Feedback sound effects (true.wav, false.wav)
+│   ├── fonts/                  # Local fonts (Inter-Regular.otf, SF-Pro-Rounded-Bold.otf)
+│   └── icons/                  # App icon (app-icon.svg)
+├── data/
+│   ├── set1_0_65.json          # Set 1 dataset (210 characters)
+│   ├── set2_65_85.json         # Set 2 dataset (411 characters)
+│   ├── set3_85_95.json         # Set 3 dataset (666 characters)
+│   └── set4_95_100.json        # Set 4 dataset (2,322 characters)
+├── src/
+│   ├── app.js                  # SRS logic, session builder, card renderers, canvas, SW registration
+│   └── styles.css              # Application styling
+├── .gitignore
+├── index.html                  # Main UI (home view, study view, session summary, learned panel)
+├── LICENSE                     # MIT License
+├── manifest.json               # Web app manifest for PWA installation
+├── README.md                   # Project documentation
+├── run.bat                     # Windows launcher for server.py
+├── server.py                   # Local Python HTTP server (port 7583, ThreadingTCPServer)
+└── sw.js                       # Service Worker for offline caching
 ```
 
 ## Storage
 
 All learning progress and bootstrap states are saved locally in the browser's `localStorage` under keys `hanzi_state_<setId>` and `hanzi_bootstrap_<setId>`.
+
+## License
+
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.

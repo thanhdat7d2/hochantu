@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Inter";
-    src: url("./font/Inter-Regular.otf") format("opentype");
+    src: url("../assets/fonts/Inter-Regular.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "SF Pro Rounded";
-    src: url("./font/SF-Pro-Rounded-Bold.otf") format("opentype");
+    src: url("../assets/fonts/SF-Pro-Rounded-Bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
 }

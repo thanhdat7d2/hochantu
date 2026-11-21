@@ -1,0 +1,35 @@
+name: Validate Project
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check src/app.js
+          node --check sw.js
+
+      - name: Check Python syntax
+        run: python -m py_compile server.py
+
+      - name: Validate JSON files
+        run: |
+          python -c "import glob, json; [json.load(open(f, encoding='utf-8')) for f in ['manifest.json', *glob.glob('data/*.json')]]"
